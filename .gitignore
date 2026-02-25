@@ -1,0 +1,66 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+*.swp
+*~
+.AppleDouble
+.LSOverride
+
+# CocoaPods (not used but just in case)
+Pods/
+
+# Temporary files
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Claude Code
+.claude/
+
+# Staging/temp
+/tmp/
+*.pyc
+__pycache__/
+
+# Icon staging
+bloomher-icons-staging/
+
+# Unrelated folders
+cucoon website/
+node_modules/
+
+# Large media
+*.mov
+*.mp4
+
+# Python
+*.pyc
+*.py
+
+# Misc images at root
+hydration.png
+iconpreg.png
+
+# Xcode project user data
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Generated
+BloomHer_PRD.docx
+project.yml

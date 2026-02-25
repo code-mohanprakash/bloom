@@ -1,0 +1,8 @@
+{
+  "images": [
+    { "filename": "bloom-ai.png", "idiom": "universal", "scale": "1x" },
+    { "filename": "bloom-ai.png", "idiom": "universal", "scale": "2x" },
+    { "filename": "bloom-ai.png", "idiom": "universal", "scale": "3x" }
+  ],
+  "info": { "author": "xcode", "version": 1 }
+}

@@ -1,0 +1,1707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AC8D49972BDB5AD6B25290 /* ModeSelectionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC13C950BFFC393142892733 /* ModeSelectionPageView.swift */; };
+		024AEB825B0F4B6D8028F524 /* AIAssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B764333F3439292B9CF45 /* AIAssistantService.swift */; };
+		02FEDFC1715BB9B7A4734979 /* FlowLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64FDD0C3483E91D224A27C /* FlowLevel.swift */; };
+		0356CB846648494AD85EC888 /* ReportGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B0B6F1684C4755464168 /* ReportGeneratorView.swift */; };
+		0ACF87917B3194EDF2BF3B96 /* OPKResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F596C49C628AF13E9A525 /* OPKResult.swift */; };
+		0AF7DFFE21BE6D2879BE677D /* TTCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8BF12DFC95A554871EA1E9 /* TTCViewModel.swift */; };
+		0B53E48BE0ABE2E38E240563 /* TTCJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F35B4CE4787172A61D43BF /* TTCJournalView.swift */; };
+		0C86FFE31F35FCCD529B92F6 /* BloomWaterDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF55106533FD017A4855966 /* BloomWaterDrop.swift */; };
+		0D1E46F3E230A9BA0A447FF9 /* ChecklistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D32917E040E0CF0F5C35F0 /* ChecklistData.swift */; };
+		0DB91D47B495EC06767DB2C8 /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCB2A3F8189FF176465E36 /* WeightEntry.swift */; };
+		0EE6059A9CE106F8402354DC /* CalendarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812D13E0F9FA0836F87C3EF /* CalendarRouter.swift */; };
+		102EDF2BE105E913144F15DE /* EnergyLevelSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC8F2F68E52D26A1D29115 /* EnergyLevelSelector.swift */; };
+		122518C157DA3BDB725C1EF8 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750A57CEFD8F413FDB3A13FE /* ProfileRouter.swift */; };
+		12C6C48C9B9E26DC7F8B961F /* SelfCareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A917FE0876C7C35852912 /* SelfCareItem.swift */; };
+		1317BD6C432FC85AB6FB4C19 /* BloomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B164C9D2EE2966CBD38EDB /* BloomTextEditor.swift */; };
+		166719615EE24174F12C475D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516D4782380A37729F7B349 /* HomeView.swift */; };
+		16745924315D84E9D7E4CA86 /* ContractionEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37235452B5B35B9F492AC1D7 /* ContractionEntry.swift */; };
+		17422FFAA9301E1A064383F5 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08F4C69A9BEB31A83F798 /* HealthKitService.swift */; };
+		17467FB0C11A6B53CBE824A0 /* FertileWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA15B7A6F2C2F1C8FF4B3AA /* FertileWindowView.swift */; };
+		17AE87A34AF83474787DAF46 /* BreathingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEE1824E0210E9CDE42066 /* BreathingCircle.swift */; };
+		1979E51372DEEB724F59F50D /* PartnerSharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD7D3AAD29F93267CA440E9 /* PartnerSharingService.swift */; };
+		19AA204D2C5EB7D2498E350E /* BloomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654197EBDB9A2387646479F0 /* BloomIcons.swift */; };
+		1A4A7EABC306D5C1DD2A458A /* BloomScrollModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5784B46F4EE59B8A0BB7649C /* BloomScrollModifier.swift */; };
+		1C554223E82D08ACD0F2DF2C /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66C4DCD56155398FA7AC08 /* AppointmentListView.swift */; };
+		1C6C4109958CD3389EF08CD5 /* SelfCareChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742DC279751B6AEFE70A139 /* SelfCareChecklistView.swift */; };
+		1D06D90F11012A0BDFF7C9F2 /* PregnancyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC372BD62E5229F8D73946C1 /* PregnancyDashboardView.swift */; };
+		1D9A760DCBED01E7317F2D22 /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A552E4B5F559964C923E2 /* WelcomePageView.swift */; };
+		1F74148503315C875FF4F04E /* KickCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE121DD6EB8171E76E0AF5E /* KickCounterView.swift */; };
+		215343DBC1B9774ADB818788 /* MedicalDisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59226441AAD7C09659782D91 /* MedicalDisclaimerView.swift */; };
+		22453929A1F72AA87E5428B5 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8497D104D174C55B71D364 /* CategoryCard.swift */; };
+		2310092885806310D43EBAEB /* PregnancyWeekContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFFF3C0294D1B776B23872 /* PregnancyWeekContent.swift */; };
+		23297E9696F99207B7A3D08D /* BloomFruitBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8699FD42919B0575B33EA00 /* BloomFruitBaby.swift */; };
+		278DAEF8B93EB1AE41C3EEBB /* PelvicFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CDA003FC9E2884B3799FA /* PelvicFloorView.swift */; };
+		278FA3CF744F471C9180705E /* AIFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8EA66133B4CA4A8481B7F /* AIFloatingButton.swift */; };
+		27CE64EBB445CEA0AD9F6EEE /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D979A870751289C9F5579E4B /* ColorExtensions.swift */; };
+		29121EED8F4CD8A2296F7A81 /* BloomHerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA088C0C3EFCD4DB40DAC5D /* BloomHerApp.swift */; };
+		2A8890D5B552DBD35F477420 /* PartnerActionLoggerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D77D22870FD8F2CE84A7A5 /* PartnerActionLoggerView.swift */; };
+		2C8F40D8AFC066D1B742574D /* PregnancyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F77158764B2BC2B987E122 /* PregnancyRepository.swift */; };
+		2DBEC6CD34E09D15D9EA5216 /* BloomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83E731932CF14B5CD3F555 /* BloomSlider.swift */; };
+		3070CC021DF4289C237DC9BD /* ExerciseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131A084905652DEC060CDD5 /* ExerciseCategory.swift */; };
+		3272A5989E105CF8B48DF9C6 /* SymptomSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B05FE0DBBD05D1B04E1F0F /* SymptomSelector.swift */; };
+		330B8D73080B7B49EEC615BB /* RepositoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EBEBEED0B4C62CA8AA5C08 /* RepositoryProtocols.swift */; };
+		3486E3055228881D167DCFB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3BDF98E01AE1496162715 /* Constants.swift */; };
+		361B4875F62ACE0A40A2068A /* BirthPlanBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916291744D5AE2D563685601 /* BirthPlanBuilderView.swift */; };
+		363793C441953E15AD8FC729 /* SexualActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B196844F46F9347CEFF748EB /* SexualActivity.swift */; };
+		368AEF17F3D50A6A3E51F607 /* CyclePredictionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E74FD18427B4CD9C89C0A60 /* CyclePredictionServiceTests.swift */; };
+		36CDBC697C691C5857BE00F2 /* InsightCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CE09F6B202E76695FEFD3 /* InsightCardView.swift */; };
+		3902E7323F7E75E1EB32894A /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D1A9350C242D33C7036A3 /* OnboardingViewModel.swift */; };
+		3AA75AE7AF0606D01984DE96 /* PhaseInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8EAF1351F5ED165493326 /* PhaseInfoCard.swift */; };
+		3B66FDF19A96DFC82CFB10D1 /* WidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF490794F2A5CBD20DAAF900 /* WidgetDataProvider.swift */; };
+		3B70B25F9E0174AA02E3DFBB /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3500826BAF08D2436DF5C102 /* SettingsManager.swift */; };
+		3B8EDFC1D8B993850D458FB6 /* BloomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4A3635792F5B1933BFCB9 /* BloomCard.swift */; };
+		3BDD310A687BB09C0B1F7126 /* WeightedMovingAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82371E470C1DEA1CBACC67F /* WeightedMovingAverageTests.swift */; };
+		3D4B947489CF3201E2510512 /* PartnerSharingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32219148038BE8F2A8A2FF8C /* PartnerSharingServiceTests.swift */; };
+		41D2BFBD59A7D483AA647022 /* NutritionTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F953E5414DE6F2FCC7368E /* NutritionTip.swift */; };
+		41FBA95C38CF47D51A2E5DD5 /* DischargeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D218DB4E07BF09891E93E7 /* DischargeType.swift */; };
+		43FE9A8410F2995F5AE0B363 /* PersonalizationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5668682007229434B272BB9 /* PersonalizationPageView.swift */; };
+		44BE1D359B0CB43F1D833998 /* PregnancyWeekData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CDDFB054FEA7B364049AD6 /* PregnancyWeekData.swift */; };
+		488AC5CC57A92CBF8883BBEA /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B070F637F4987D7000BFED1 /* Affirmation.swift */; };
+		489D4FBCC699F956FE87E554 /* KawaiiIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9425C729AE5E43B3F3E51901 /* KawaiiIllustration.swift */; };
+		4B9B6DD2652F261DC26CEE40 /* YogaSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D919EEDA3F5471D59570E8 /* YogaSession.swift */; };
+		4DE512AABB02FE4D60507474 /* WeeklyChecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2475BA6621C87ABF4D4EC0 /* WeeklyChecklist.swift */; };
+		4F145EFBE65C7E9A05FDD139 /* StaggeredAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CDDA1F2CC7B88E629ABE8B /* StaggeredAppearModifier.swift */; };
+		4F1832C99AC814FC03432036 /* BloomNavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656D1DCD53450ABB4E8612F /* BloomNavigationModifier.swift */; };
+		4FF31E49D54D43F8ECB31E43 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB308AE3907B75C6D3B038 /* HapticManager.swift */; };
+		503752ACEF6D2B3CFFD01359 /* RoutineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF67F7CF1A505CA80E2A2 /* RoutineDetailView.swift */; };
+		50888623C31A1C3B151638DB /* ParticleEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006EF7669B867EA28D7648E /* ParticleEffects.swift */; };
+		535F255DCA4E2D7585117628 /* BloomShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E6D9AD39C2BBE5D6D17C00 /* BloomShareSheet.swift */; };
+		537273A480133D006174563E /* BloomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC33532044396933D5755D9 /* BloomButton.swift */; };
+		5376958A618D578B1E57D258 /* InsightsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD358724D3EE7FB5B29AE9 /* InsightsTabView.swift */; };
+		5481941CA97AB08B2085CE3E /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624BB3BB65611CA8ECB6B8A /* HomeRouter.swift */; };
+		5589B7CEB87D822135761919 /* ContractionTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A5D00999704261FA7D264 /* ContractionTimerView.swift */; };
+		578117D20F365BA30961D5F7 /* YogaRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99747885428589EF2E76E4FB /* YogaRoutine.swift */; };
+		58025D30D324E6B77E0954D5 /* BloomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42110572AC5CCF1E019A609B /* BloomSegmentedControl.swift */; };
+		582BD9B9A469ED553111F397 /* KickSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DB94EFE8758486C943717 /* KickSession.swift */; };
+		5B2C02F5DBE6C519B017F8FF /* SymptomHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C933E32789D2B5B506DA0 /* SymptomHeatmapView.swift */; };
+		5BEC11A19F9D819C82569448 /* WeekByWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4F8C935D9C7E5EAC9A7B8 /* WeekByWeekView.swift */; };
+		5C0802CEE763DC4084369AC0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3095E91178A0B0986F3E596 /* NotificationService.swift */; };
+		5F6A43E86DC2FDF307E8CA98 /* YogaPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA02144FEA0734F0FDD171F /* YogaPose.swift */; };
+		5FB945993F68390D2B70CF5D /* YogaRoutineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CE757C63EE5EE22C509DBE /* YogaRoutineData.swift */; };
+		603FB36340E50AF657BECB57 /* BloomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4ABFD8B0007077144E9E39 /* BloomTabBar.swift */; };
+		63BFE76B738AADDEBFFD7631 /* FlowerShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6303114491072FB8EDD34D /* FlowerShapes.swift */; };
+		644A3E073A87E07080D2D62D /* DayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2F4D99AFD7F5B913CF8ED /* DayDetailViewModel.swift */; };
+		6623FE11BA435AB8BC003BEC /* YogaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84940E0EB7EA62C0519B5B8 /* YogaRepository.swift */; };
+		66CEDA6DDA5AFD2E6246950F /* PartnerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155CEE461DE8AFD84293B99F /* PartnerDashboardView.swift */; };
+		673A5B29AB72749B742791E8 /* BloomBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDDB9EBD5A0F8BE3051EE5 /* BloomBanner.swift */; };
+		6808B6B86A5A1047B464ABC4 /* FlowSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C639AD68AE71A31CA020476 /* FlowSelector.swift */; };
+		694301DB85903A3AD3351263 /* BloomShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFC2A2A6CF0FBC37E6CF45 /* BloomShadow.swift */; };
+		6B41D87E2501C285C18DB852 /* AffirmationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347D2A146B09FF90FD5B06FF /* AffirmationData.swift */; };
+		6D29671DF7E04322CAB94CCE /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD4A339BF2E392E29DFDC8 /* ScaleButtonStyle.swift */; };
+		6D5EFA27DEFDB425880EC4CE /* NumberFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152513262EB1DC6B1A4D546F /* NumberFormatting.swift */; };
+		6EA76CB824EB93189FF41B13 /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF3151968D2FD1B72B4F4A /* Symptom.swift */; };
+		6F1370C9396CB9FE89BA251B /* MoodSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D094DA8C7F267EACA23E0 /* MoodSelector.swift */; };
+		6F64CFA3EBBA394214C3AF8C /* PhaseThemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E9C1905DB06DCA9443DD6 /* PhaseThemeEnvironment.swift */; };
+		7502E7B6C1861BCABFCD3FCB /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E3A4159E606EC3DC43E5F0 /* ViewExtensions.swift */; };
+		759C437A6C8AAA08D75E94DE /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8E3F6B84B0882C192CC07 /* AppearanceSettingsView.swift */; };
+		7821BB351D81311E5622001C /* BloomHerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC0D61DA10611E3292702D7 /* BloomHerTheme.swift */; };
+		7AFF38E95679EB8735DBF7FC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D775813F0C7BC0CE12281 /* RootView.swift */; };
+		7B6FEFE250864A94ADEA0675 /* AIAssistantChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EFBF6DC14748D582FFFE46 /* AIAssistantChatView.swift */; };
+		7B98D57CC6B4700C8930BA50 /* DischargeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B217EA7C6E2673F21A39890 /* DischargeSelector.swift */; };
+		7BE423352DB3C789170093C2 /* CrampLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D0FB6980E3E0C681DC61 /* CrampLevel.swift */; };
+		7C7F201D0D293C3CE6D014AF /* PrivacyPromisePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A5FAA80E5AA0929E7BFDFD /* PrivacyPromisePageView.swift */; };
+		7F20797258326941AF21F93A /* BloomHerWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F4016A1636DBDC848C501 /* BloomHerWidgetBundle.swift */; };
+		835DA260FFC7B69B3009EC58 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151013C86C570A89904BBE2 /* NotificationSettingsView.swift */; };
+		83A36C69FA5C3E9D23602EDD /* YogaHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BD438F166401E4646B77B /* YogaHomeView.swift */; };
+		8455939B37DEAD7836568C23 /* BBTChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE54BFA15F812CE91D838A /* BBTChartView.swift */; };
+		85A9F3F10FCBF19A7FDE30F9 /* SymptomLogQuickSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB1FD3B0EB0A812071A32A /* SymptomLogQuickSheet.swift */; };
+		8B39609BFEDD539BA57C6D97 /* NutritionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8957677F95DCBEC3FA5EFA /* NutritionData.swift */; };
+		8DB9A7B2990D78FEAA67AD62 /* RoutineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2525C005BEEC12362A83E /* RoutineListView.swift */; };
+		9037788E1C21F69EB74308BE /* NavigationDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F48662B05808DB2A70C8F4 /* NavigationDestinations.swift */; };
+		94BD0F015AF6D40D745099A7 /* DataDeletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA00DD5F51D544F93E48DBA /* DataDeletionView.swift */; };
+		95700F8F7A8F71793AEA6E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B392290991CB044AAC5B65D7 /* Assets.xcassets */; };
+		961FFA434404A568FE0E20E8 /* CyclePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265F58C48AF72747063CC5D /* CyclePhase.swift */; };
+		9718A5A87D7247700BA0CE11 /* YogaPoseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF230A6EE11CCD3BDA62B31 /* YogaPoseData.swift */; };
+		979F05B193CDF3643B13AEDD /* HomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA28420AC9F4E2E8DED5F9B /* HomeContainerView.swift */; };
+		981D4BA74F613647A0944DFD /* BloomPrimaryButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07350D6B6AFEBE2FAE58FAFE /* BloomPrimaryButtonModifier.swift */; };
+		986A6C6E96568014FA4087C9 /* CycleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CC8460C51D26CCF7712222 /* CycleEntry.swift */; };
+		9890F95F5E6514BB5CA13438 /* PregnancyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB000EF6D414E462E06FABB /* PregnancyViewModel.swift */; };
+		99B832308FD99BDF35BD3277 /* NutritionTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485CDFA168EF26A0F12A081 /* NutritionTipsView.swift */; };
+		99E799F1426332865D2FBFB7 /* WaterTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F93DD80412ECBF4C0B0EC1 /* WaterTrackerView.swift */; };
+		9AAECE3ECD066834F0C1F44D /* BloomMedicalDisclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B1B96598FABD6DFAD428B1 /* BloomMedicalDisclaimer.swift */; };
+		9AF4E494BF17C3B1D70A9D83 /* SkinCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF53EA42DBAC8F392EDD6 /* SkinCondition.swift */; };
+		9B6E4BDF61C487C1E7C4D7DD /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E9249A901478687655E6E /* AppMode.swift */; };
+		A00CA676F4AF9BC5ADA4A2C2 /* PartnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C95D51C7415F14E7F8EE7 /* PartnerViewModel.swift */; };
+		A25CEA0D7C0B46BDACBFF482 /* PregnancyWeekWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F084E4E63754B4FCE7F68 /* PregnancyWeekWidget.swift */; };
+		A2D21998DDB03497BFEA841F /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6206361DD63F84282719A640 /* PrivacySettingsView.swift */; };
+		A6B1545DCBD5FE62B913ECC4 /* EnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A575C4377A6957D47043047 /* EnumTests.swift */; };
+		A71CC863C3182987C8CC310F /* CycleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BA741C4C66E836FC05A3CA /* CycleRepository.swift */; };
+		A7B3C2D1E0F987654321ABCD /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3C2D1E0F987654321EF01 /* PrivacyPolicyView.swift */; };
+		A8A0F9104A239EB4114DC7BD /* WellnessRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E09D77AB7451AD31ED688 /* WellnessRouter.swift */; };
+		AC19ECA926227D87E69A1948 /* AffirmationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BEB2E58E906EBFBC4F236 /* AffirmationCardView.swift */; };
+		AE6DC035B18FA72D110B05EC /* DataConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC688B7A757CD965DCC7F9E3 /* DataConfiguration.swift */; };
+		AE94BEB4D58F91ED60BFB183 /* OPKLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9E0D63A874FF6B7022B4E /* OPKLevel.swift */; };
+		B2F61FB99E963A27ED58AD7C /* BloomChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD9546298D32E7E0136E76 /* BloomChip.swift */; };
+		B4F8ED899C5AB75194EA2C79 /* WeightTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE27779EDA2CA421A6F055 /* WeightTrackingView.swift */; };
+		B5025FF196B9E779375FA1DD /* PoseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A526E86AC48FE02259AAEB /* PoseCardView.swift */; };
+		B52E380B8A106F59680830D4 /* PartnerEducationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A5CD7C1D4B12956C790EA /* PartnerEducationCardView.swift */; };
+		B56E1F91AF9E087551CBD2F7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606FA3D917756C8B6EF6FABD /* MainTabView.swift */; };
+		B6F59682AD042CC739BC004B /* BloomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCCE17AEF18536B17604E7 /* BloomProgressBar.swift */; };
+		B70E6F1BA4F0C266698AEA3B /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF8BB28FF2A6DD15013575 /* CalendarViewModel.swift */; };
+		B7B7624DA9328C0ABA94B7A0 /* WaterIntakeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1232D1118F8742099E33826 /* WaterIntakeWidget.swift */; };
+		B7F85B044030A469B8853ACF /* BreathingExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E37681C58ACEB2FC0C76B3 /* BreathingExerciseView.swift */; };
+		B84B9891BB57BA81B22EDB27 /* PoseLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5D392C5FDEA066295B00 /* PoseLibraryView.swift */; };
+		B8EF70212FE11E9A35425F8A /* AffirmationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A6B0973FFB540DC213813 /* AffirmationContent.swift */; };
+		BA74E5EF3DF05E8132EC40E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BE1BB52FFF881CE9FD707 /* SettingsView.swift */; };
+		BA7E1BCF469B557699775E03 /* SelfCareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBF41D2CE763400DE02CCA /* SelfCareData.swift */; };
+		BDA9E7D121D072BD5C4EE9EB /* PregnancyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8A50C6AFBE58B22225C68 /* PregnancyProfile.swift */; };
+		BDD14B0374552AA89B1AC184 /* WellnessHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97FD38E779915631AA31EA /* WellnessHomeView.swift */; };
+		BFBDFC2B92885A0D463D4EBB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF1D1BA41CD33611AD19FD /* AboutView.swift */; };
+		C22501E439AFD1CF0B2516B8 /* BloomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE0BA0548ECCB268ED8262 /* BloomDatePicker.swift */; };
+		C4D728F9ACAD55B084D860F9 /* CycleLengthChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4460AA56515FED013221FF7 /* CycleLengthChartView.swift */; };
+		C506D484ABA2B45D02CB58AF /* BBTEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF58540F42AC2EE176B35 /* BBTEntry.swift */; };
+		C55CEEB9C8A01C0FD9FAFE1A /* CycleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E851ABE3D7AE219A557EDBF /* CycleCalendarView.swift */; };
+		CA6F1AE9D32A6D470AB98091 /* BloomCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD9753FB24B1FC5FAEBE67 /* BloomCardModifier.swift */; };
+		A1B2C3D4E5F60001GLASS01 /* BloomGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60002GLASS01 /* BloomGlassModifier.swift */; };
+		CACC7DB7B43F455DDAD62778 /* CyclePredictionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87721B046BF14C9E1A60DE4 /* CyclePredictionService.swift */; };
+		CB03226B25E35B66C36BD89E /* BloomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD65AC74010D9A9E713FB8 /* BloomTextField.swift */; };
+		CDF79D04B8088C81E1537C08 /* InsightsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286F931038EB15499985F4B /* InsightsRouter.swift */; };
+		CE05C223553829C629F96E76 /* TTCRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F87F2CCCF300D1505C96D8 /* TTCRepository.swift */; };
+		CE88B07B5F7C43963D7F0C5E /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C751A4810F6E6390C3946 /* Mood.swift */; };
+		CF9B15DFF9A6623715925C85 /* FruitShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ED70D40438666E6A9CA3F /* FruitShapes.swift */; };
+		CFC7E627B847E66894A41A79 /* BloomFlowerGrowth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627323301FED6E7F1414B69D /* BloomFlowerGrowth.swift */; };
+		CFF9978F645EEE08367F3F6A /* BloomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7116BCBA7823F89E7FE /* BloomColors.swift */; };
+		D03AFB95A932A27F01DD0B35 /* PartnerSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328AA5A9C8BB1AD2EE292E32 /* PartnerSetupView.swift */; };
+		D0742C406263E7FC760174A4 /* DailyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476FF6A720D5F10CAFB1424 /* DailyLog.swift */; };
+		D0E535C0F1059F00A59E4555 /* MoodPatternsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A2428BAABDCC41C8F6FEF /* MoodPatternsView.swift */; };
+		D17A3C8B2F4E09A15C6B82D3 /* DoveSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C592D14B7F830E6D1A4F28 /* DoveSymbol.swift */; };
+		D4E1ED00A3E73A88AB010361 /* CalendarMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290CA36D2F5CE67A141EFD2B /* CalendarMonthHeader.swift */; };
+		D51C9277738BEB2A9B1E6555 /* SupplementReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB627AA97F03CD0B2C2F1E7 /* SupplementReminderView.swift */; };
+		D5E6F7A8B9C0D1E2F3A4B5C6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* SplashScreenView.swift */; };
+		D64878B182B87C8B7D5D19EF /* KawaiiFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950CBD77CD2CB23F5C0DD08 /* KawaiiFace.swift */; };
+		D8C7B7B8EE74C558CDC2727C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6674A7BB05521A56895DA /* DateExtensions.swift */; };
+		D99FAE8F7B46633F7DC0BE8C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD820FB3D7103AE635D28E96 /* Appointment.swift */; };
+		D9EF4D6CC3041030B8A1CF06 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D2211F6FFD32DB8555EB4 /* HomeViewModelTests.swift */; };
+		DC190BD5F198091BD0D0BB3D /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C0E253E862A940F82163 /* AppDependencies.swift */; };
+		DC55E0C4250856EC58CACD16 /* PartnerShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394BC1BA0C0F4C895E28AA7 /* PartnerShare.swift */; };
+		DCC417FA7713A4240C13575B /* OPKLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46BA8D55E830CD26316C89 /* OPKLoggingView.swift */; };
+		DD3554046F01B4E80A6B16BD /* DaysLateBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D30482CA721E79DB6B816 /* DaysLateBanner.swift */; };
+		DFE66F8928B40C8ECBAF7AFA /* BloomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09884DDEB2296C4E0C5DC9CA /* BloomHeader.swift */; };
+		E1A2D6350B2FC68B325804B8 /* CycleDayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA1A2FB631738110EBEDFB /* CycleDayWidget.swift */; };
+		E202C7CE84851B5009275FB1 /* FlowColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9481F284EF9E9D39F8D1A4 /* FlowColour.swift */; };
+		E25D11BF01F01A7ABCBA7A11 /* HealthKitSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D41AF9ED95539111AA0A5D /* HealthKitSettingsView.swift */; };
+		E472252C542C7F567DF9176F /* FlowColourSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C12CD90630805BD01119B /* FlowColourSelector.swift */; };
+		E4A1B2C3D5F6078912345678 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F607891234ABCD /* AuthenticationService.swift */; };
+		E6F3DEB78B365CF813BF01DD /* CycleRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20FD3E98C96D354164E55AF /* CycleRepositoryTests.swift */; };
+		E6F7A8B9C0D1E2F3A4B5C6D7 /* CalendarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6071829A3B4C5D6 /* CalendarContainerView.swift */; };
+		E767EFB9B2FDC5698F68B2CA /* PartnerEducationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34A8E6174887A2CA8B6208 /* PartnerEducationData.swift */; };
+		E7DA67B5A9C45E7B706695EF /* CycleHistoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9B573D6A605EA4435DE4D /* CycleHistoryPageView.swift */; };
+		E7EA4C92C8476C05AE79FB8E /* RoutineTimerRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6808FBA6904CE8E4AE51E /* RoutineTimerRing.swift */; };
+		EA5FF0DDE43AB72538570809 /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9919BFB5A879EB2FB6CB8EE6 /* InsightsViewModel.swift */; };
+		EB2968FCF477D0F363F0AB15 /* TodaySummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA475A3F2E43CB9902563FB8 /* TodaySummaryCard.swift */; };
+		EC27C8B040A42D83307E6089 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACADC562EA50780542EC628 /* HomeViewModel.swift */; };
+		ECBDD679299194F101F7BC5C /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B91113FF67415AC3D4667 /* ShimmerModifier.swift */; };
+		ECD5325C8DFB16BD361755ED /* ActiveRoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897E2E2931A17BC402FF3CF4 /* ActiveRoutineView.swift */; };
+		ECD8CC767233E8F8B60C73E2 /* PDFGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7548F0BA37ED7C414912F /* PDFGeneratorService.swift */; };
+		EEDE1F91D00B1487B492B93A /* YogaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF499936BC9CF353F2EECF7 /* YogaViewModel.swift */; };
+		F2B22401CF124D26D9B6546F /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFE0AFF2EB24ED4430FAD8 /* SettingsViewModel.swift */; };
+		F2D5EC7F61D5BE35BCB36547 /* QuickLogSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3655D1C45A8BBB03873AF /* QuickLogSection.swift */; };
+		F30A130504DAEA0700CF6893 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB512509BA4057267A100EA4 /* OnboardingFlow.swift */; };
+		F441DE6FF33BA3A4B4C78B60 /* PregnancySetupSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF811D8A27E22D86EB37FC /* PregnancySetupSheet.swift */; };
+		F5B2C3D4E6F7089A23456789 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6F708AB3456BCDE /* SignInWithAppleView.swift */; };
+		F7A8B9C0D1E2F3A4B5C6D7E8 /* InsightsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F607182930B4C5D6E7 /* InsightsContainerView.swift */; };
+		F83FD4CFB45A10569DA7E6E6 /* WellnessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF1D3E75943DB800BAD30B /* WellnessViewModel.swift */; };
+		F88762CB200280F9F0996F99 /* SleepLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E00C230EE5B57E2F2B79E0 /* SleepLogger.swift */; };
+		F8B9D009B60343A26E2E6908 /* GratitudeJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEA7AE59BA643CAE0DC115 /* GratitudeJournalView.swift */; };
+		F97B6A7545EAFAFD5D8CA3B6 /* PhaseBorderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C50BA94F19F8F1F0C3D1E45 /* PhaseBorderModifier.swift */; };
+		FB32DF4B729C7EF327E11F07 /* DayDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B59B065E32DF971217DD8E1 /* DayDetailSheet.swift */; };
+		FBB479AC00EB2A8582571D94 /* CrampIntensitySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF72B2E2499CB7EB181E0C /* CrampIntensitySelector.swift */; };
+		FC74BE66008E8643ACC1D7BB /* CycleLengthStatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02293EB34AD3E137232C8A /* CycleLengthStatsBar.swift */; };
+		FF5F8CB6471E758FB687D656 /* PregnancyChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6520E49A3E200D6831931 /* PregnancyChecklistView.swift */; };
+		FFA2FF514FADFCE17927B222 /* WellnessRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587187620E9FCA2B3703730 /* WellnessRepository.swift */; };
+		FFF60866DA644C97A941F3AA /* TTCDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1397AC36A947ED12E7FD28 /* TTCDashboardView.swift */; };
+		A1B2C3D4E5F6PCDE00000001 /* PartnerCodeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6PCDE00000002 /* PartnerCodeEntryView.swift */; };
+		A1B2C3D4E5F6HTBC00000001 /* HomeToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6HTBC00000002 /* HomeToolbarContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4416CEAFEBD8362177AF2D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC3CE25EFE5FA817FDDA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B6D5F4CAB5858BD85F2D17;
+			remoteInfo = BloomHer;
+		};
+		5C73A3965B00864C064F2222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC3CE25EFE5FA817FDDA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B6D5F4CAB5858BD85F2D17;
+			remoteInfo = BloomHer;
+		};
+		765E6B76AAE04CA138F972FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC3CE25EFE5FA817FDDA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B6D5F4CAB5858BD85F2D17;
+			remoteInfo = BloomHer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0286F931038EB15499985F4B /* InsightsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsRouter.swift; sourceTree = "<group>"; };
+		064A2428BAABDCC41C8F6FEF /* MoodPatternsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPatternsView.swift; sourceTree = "<group>"; };
+		06F953E5414DE6F2FCC7368E /* NutritionTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTip.swift; sourceTree = "<group>"; };
+		07350D6B6AFEBE2FAE58FAFE /* BloomPrimaryButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomPrimaryButtonModifier.swift; sourceTree = "<group>"; };
+		09884DDEB2296C4E0C5DC9CA /* BloomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomHeader.swift; sourceTree = "<group>"; };
+		09F9B573D6A605EA4435DE4D /* CycleHistoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleHistoryPageView.swift; sourceTree = "<group>"; };
+		0A34A8E6174887A2CA8B6208 /* PartnerEducationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerEducationData.swift; sourceTree = "<group>"; };
+		0AAB308AE3907B75C6D3B038 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		0CA088C0C3EFCD4DB40DAC5D /* BloomHerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomHerApp.swift; sourceTree = "<group>"; };
+		0F0B764333F3439292B9CF45 /* AIAssistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantService.swift; sourceTree = "<group>"; };
+		1394BC1BA0C0F4C895E28AA7 /* PartnerShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerShare.swift; sourceTree = "<group>"; };
+		13BFC2A2A6CF0FBC37E6CF45 /* BloomShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomShadow.swift; sourceTree = "<group>"; };
+		152513262EB1DC6B1A4D546F /* NumberFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatting.swift; sourceTree = "<group>"; };
+		155CEE461DE8AFD84293B99F /* PartnerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerDashboardView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6PCDE00000002 /* PartnerCodeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerCodeEntryView.swift; sourceTree = "<group>"; };
+		16B7548F0BA37ED7C414912F /* PDFGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGeneratorService.swift; sourceTree = "<group>"; };
+		194BEB2E58E906EBFBC4F236 /* AffirmationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationCardView.swift; sourceTree = "<group>"; };
+		1B59B065E32DF971217DD8E1 /* DayDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailSheet.swift; sourceTree = "<group>"; };
+		1CA28420AC9F4E2E8DED5F9B /* HomeContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerView.swift; sourceTree = "<group>"; };
+		1DB4F8C935D9C7E5EAC9A7B8 /* WeekByWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekByWeekView.swift; sourceTree = "<group>"; };
+		1EC33532044396933D5755D9 /* BloomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomButton.swift; sourceTree = "<group>"; };
+		1F46BA8D55E830CD26316C89 /* OPKLoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPKLoggingView.swift; sourceTree = "<group>"; };
+		21F35B4CE4787172A61D43BF /* TTCJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCJournalView.swift; sourceTree = "<group>"; };
+		223DB94EFE8758486C943717 /* KickSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickSession.swift; sourceTree = "<group>"; };
+		228D30482CA721E79DB6B816 /* DaysLateBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysLateBanner.swift; sourceTree = "<group>"; };
+		22F8EAF1351F5ED165493326 /* PhaseInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseInfoCard.swift; sourceTree = "<group>"; };
+		25CE0BA0548ECCB268ED8262 /* BloomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomDatePicker.swift; sourceTree = "<group>"; };
+		27F77158764B2BC2B987E122 /* PregnancyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyRepository.swift; sourceTree = "<group>"; };
+		280F4016A1636DBDC848C501 /* BloomHerWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomHerWidgetBundle.swift; sourceTree = "<group>"; };
+		287D2211F6FFD32DB8555EB4 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		28BCF58540F42AC2EE176B35 /* BBTEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTEntry.swift; sourceTree = "<group>"; };
+		290CA36D2F5CE67A141EFD2B /* CalendarMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthHeader.swift; sourceTree = "<group>"; };
+		2ADBF41D2CE763400DE02CCA /* SelfCareData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareData.swift; sourceTree = "<group>"; };
+		2B9481F284EF9E9D39F8D1A4 /* FlowColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowColour.swift; sourceTree = "<group>"; };
+		2FB6808FBA6904CE8E4AE51E /* RoutineTimerRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineTimerRing.swift; sourceTree = "<group>"; };
+		31D919EEDA3F5471D59570E8 /* YogaSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaSession.swift; sourceTree = "<group>"; };
+		31DF811D8A27E22D86EB37FC /* PregnancySetupSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancySetupSheet.swift; sourceTree = "<group>"; };
+		32219148038BE8F2A8A2FF8C /* PartnerSharingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerSharingServiceTests.swift; sourceTree = "<group>"; };
+		328AA5A9C8BB1AD2EE292E32 /* PartnerSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerSetupView.swift; sourceTree = "<group>"; };
+		343BD438F166401E4646B77B /* YogaHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaHomeView.swift; sourceTree = "<group>"; };
+		347D2A146B09FF90FD5B06FF /* AffirmationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationData.swift; sourceTree = "<group>"; };
+		3500826BAF08D2436DF5C102 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		3516D4782380A37729F7B349 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		35E9C0E253E862A940F82163 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		37235452B5B35B9F492AC1D7 /* ContractionEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractionEntry.swift; sourceTree = "<group>"; };
+		38CE757C63EE5EE22C509DBE /* YogaRoutineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaRoutineData.swift; sourceTree = "<group>"; };
+		3A1397AC36A947ED12E7FD28 /* TTCDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCDashboardView.swift; sourceTree = "<group>"; };
+		3A7ED70D40438666E6A9CA3F /* FruitShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitShapes.swift; sourceTree = "<group>"; };
+		3BAD9753FB24B1FC5FAEBE67 /* BloomCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomCardModifier.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60002GLASS01 /* BloomGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomGlassModifier.swift; sourceTree = "<group>"; };
+		3BB000EF6D414E462E06FABB /* PregnancyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyViewModel.swift; sourceTree = "<group>"; };
+		3F83E731932CF14B5CD3F555 /* BloomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomSlider.swift; sourceTree = "<group>"; };
+		3FC8E3F6B84B0882C192CC07 /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		418A552E4B5F559964C923E2 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		41A9E0D63A874FF6B7022B4E /* OPKLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPKLevel.swift; sourceTree = "<group>"; };
+		42110572AC5CCF1E019A609B /* BloomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomSegmentedControl.swift; sourceTree = "<group>"; };
+		4265F58C48AF72747063CC5D /* CyclePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePhase.swift; sourceTree = "<group>"; };
+		42ADF67F7CF1A505CA80E2A2 /* RoutineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineDetailView.swift; sourceTree = "<group>"; };
+		42CEE1824E0210E9CDE42066 /* BreathingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingCircle.swift; sourceTree = "<group>"; };
+		43E37681C58ACEB2FC0C76B3 /* BreathingExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExerciseView.swift; sourceTree = "<group>"; };
+		44A6674A7BB05521A56895DA /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		44BA741C4C66E836FC05A3CA /* CycleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRepository.swift; sourceTree = "<group>"; };
+		47FD358724D3EE7FB5B29AE9 /* InsightsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsTabView.swift; sourceTree = "<group>"; };
+		4AA15B7A6F2C2F1C8FF4B3AA /* FertileWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FertileWindowView.swift; sourceTree = "<group>"; };
+		4D2475BA6621C87ABF4D4EC0 /* WeeklyChecklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChecklist.swift; sourceTree = "<group>"; };
+		4FCCB2A3F8189FF176465E36 /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
+		51D6520E49A3E200D6831931 /* PregnancyChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyChecklistView.swift; sourceTree = "<group>"; };
+		53CDDA1F2CC7B88E629ABE8B /* StaggeredAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredAppearModifier.swift; sourceTree = "<group>"; };
+		53F93DD80412ECBF4C0B0EC1 /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
+		5476FF6A720D5F10CAFB1424 /* DailyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLog.swift; sourceTree = "<group>"; };
+		56FF72B2E2499CB7EB181E0C /* CrampIntensitySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrampIntensitySelector.swift; sourceTree = "<group>"; };
+		5784B46F4EE59B8A0BB7649C /* BloomScrollModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomScrollModifier.swift; sourceTree = "<group>"; };
+		59226441AAD7C09659782D91 /* MedicalDisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDisclaimerView.swift; sourceTree = "<group>"; };
+		5950CBD77CD2CB23F5C0DD08 /* KawaiiFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawaiiFace.swift; sourceTree = "<group>"; };
+		5A7B91113FF67415AC3D4667 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
+		5AAF8BB28FF2A6DD15013575 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		5BDCCE17AEF18536B17604E7 /* BloomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomProgressBar.swift; sourceTree = "<group>"; };
+		5CEB1FD3B0EB0A812071A32A /* SymptomLogQuickSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomLogQuickSheet.swift; sourceTree = "<group>"; };
+		5D97FD38E779915631AA31EA /* WellnessHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessHomeView.swift; sourceTree = "<group>"; };
+		5E66C4DCD56155398FA7AC08 /* AppointmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
+		606FA3D917756C8B6EF6FABD /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		6131A084905652DEC060CDD5 /* ExerciseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCategory.swift; sourceTree = "<group>"; };
+		6206361DD63F84282719A640 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsView.swift; sourceTree = "<group>"; };
+		627323301FED6E7F1414B69D /* BloomFlowerGrowth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomFlowerGrowth.swift; sourceTree = "<group>"; };
+		629BE1BB52FFF881CE9FD707 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		654197EBDB9A2387646479F0 /* BloomIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomIcons.swift; sourceTree = "<group>"; };
+		6742DC279751B6AEFE70A139 /* SelfCareChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareChecklistView.swift; sourceTree = "<group>"; };
+		685C751A4810F6E6390C3946 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		69C2F4D99AFD7F5B913CF8ED /* DayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewModel.swift; sourceTree = "<group>"; };
+		6A4ABFD8B0007077144E9E39 /* BloomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTabBar.swift; sourceTree = "<group>"; };
+		6B217EA7C6E2673F21A39890 /* DischargeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeSelector.swift; sourceTree = "<group>"; };
+		6C639AD68AE71A31CA020476 /* FlowSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowSelector.swift; sourceTree = "<group>"; };
+		6CB627AA97F03CD0B2C2F1E7 /* SupplementReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementReminderView.swift; sourceTree = "<group>"; };
+		6E5C95D51C7415F14E7F8EE7 /* PartnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerViewModel.swift; sourceTree = "<group>"; };
+		6E8957677F95DCBEC3FA5EFA /* NutritionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionData.swift; sourceTree = "<group>"; };
+		6EBFE0AFF2EB24ED4430FAD8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		6FF2525C005BEEC12362A83E /* RoutineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListView.swift; sourceTree = "<group>"; };
+		73D218DB4E07BF09891E93E7 /* DischargeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeType.swift; sourceTree = "<group>"; };
+		73DF1D1BA41CD33611AD19FD /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		750A57CEFD8F413FDB3A13FE /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		7587187620E9FCA2B3703730 /* WellnessRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessRepository.swift; sourceTree = "<group>"; };
+		76E6D9AD39C2BBE5D6D17C00 /* BloomShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomShareSheet.swift; sourceTree = "<group>"; };
+		7812D13E0F9FA0836F87C3EF /* CalendarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRouter.swift; sourceTree = "<group>"; };
+		7ACADC562EA50780542EC628 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7AE3655D1C45A8BBB03873AF /* QuickLogSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLogSection.swift; sourceTree = "<group>"; };
+		7B070F637F4987D7000BFED1 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
+		7B8A5CD7C1D4B12956C790EA /* PartnerEducationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerEducationCardView.swift; sourceTree = "<group>"; };
+		7BF499936BC9CF353F2EECF7 /* YogaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewModel.swift; sourceTree = "<group>"; };
+		7E5D1A9350C242D33C7036A3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		7E74FD18427B4CD9C89C0A60 /* CyclePredictionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePredictionServiceTests.swift; sourceTree = "<group>"; };
+		7E851ABE3D7AE219A557EDBF /* CycleCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleCalendarView.swift; sourceTree = "<group>"; };
+		7EF230A6EE11CCD3BDA62B31 /* YogaPoseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseData.swift; sourceTree = "<group>"; };
+		81EBB7325C1485CC2F7FDA74 /* BloomHerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomHerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF1D3E75943DB800BAD30B /* WellnessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessViewModel.swift; sourceTree = "<group>"; };
+		85D8A50C6AFBE58B22225C68 /* PregnancyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyProfile.swift; sourceTree = "<group>"; };
+		87FF3151968D2FD1B72B4F4A /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		897E2E2931A17BC402FF3CF4 /* ActiveRoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRoutineView.swift; sourceTree = "<group>"; };
+		89DC8F2F68E52D26A1D29115 /* EnergyLevelSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyLevelSelector.swift; sourceTree = "<group>"; };
+		8C50BA94F19F8F1F0C3D1E45 /* PhaseBorderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseBorderModifier.swift; sourceTree = "<group>"; };
+		8FFEA7AE59BA643CAE0DC115 /* GratitudeJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeJournalView.swift; sourceTree = "<group>"; };
+		9006EF7669B867EA28D7648E /* ParticleEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffects.swift; sourceTree = "<group>"; };
+		916291744D5AE2D563685601 /* BirthPlanBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthPlanBuilderView.swift; sourceTree = "<group>"; };
+		93D41AF9ED95539111AA0A5D /* HealthKitSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSettingsView.swift; sourceTree = "<group>"; };
+		9425C729AE5E43B3F3E51901 /* KawaiiIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawaiiIllustration.swift; sourceTree = "<group>"; };
+		97B1B96598FABD6DFAD428B1 /* BloomMedicalDisclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomMedicalDisclaimer.swift; sourceTree = "<group>"; };
+		97EBEBEED0B4C62CA8AA5C08 /* RepositoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocols.swift; sourceTree = "<group>"; };
+		9919BFB5A879EB2FB6CB8EE6 /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
+		99747885428589EF2E76E4FB /* YogaRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaRoutine.swift; sourceTree = "<group>"; };
+		9A575C4377A6957D47043047 /* EnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
+		9BE3BDF98E01AE1496162715 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1232D1118F8742099E33826 /* WaterIntakeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeWidget.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B5C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F607891234ABCD /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		A3095E91178A0B0986F3E596 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A3C592D14B7F830E6D1A4F28 /* DoveSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveSymbol.swift; sourceTree = "<group>"; };
+		A3CC8460C51D26CCF7712222 /* CycleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleEntry.swift; sourceTree = "<group>"; };
+		A50A5D00999704261FA7D264 /* ContractionTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractionTimerView.swift; sourceTree = "<group>"; };
+		A68D094DA8C7F267EACA23E0 /* MoodSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelector.swift; sourceTree = "<group>"; };
+		A7B3C2D1E0F987654321EF01 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		A82371E470C1DEA1CBACC67F /* WeightedMovingAverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedMovingAverageTests.swift; sourceTree = "<group>"; };
+		A8699FD42919B0575B33EA00 /* BloomFruitBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomFruitBaby.swift; sourceTree = "<group>"; };
+		A87721B046BF14C9E1A60DE4 /* CyclePredictionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePredictionService.swift; sourceTree = "<group>"; };
+		A9D32917E040E0CF0F5C35F0 /* ChecklistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistData.swift; sourceTree = "<group>"; };
+		AA02293EB34AD3E137232C8A /* CycleLengthStatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLengthStatsBar.swift; sourceTree = "<group>"; };
+		AB6A6B0973FFB540DC213813 /* AffirmationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationContent.swift; sourceTree = "<group>"; };
+		AB8497D104D174C55B71D364 /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		AB9E9C1905DB06DCA9443DD6 /* PhaseThemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseThemeEnvironment.swift; sourceTree = "<group>"; };
+		AC8BF12DFC95A554871EA1E9 /* TTCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCViewModel.swift; sourceTree = "<group>"; };
+		AD6303114491072FB8EDD34D /* FlowerShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShapes.swift; sourceTree = "<group>"; };
+		AF4E9249A901478687655E6E /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		AFD7D3AAD29F93267CA440E9 /* PartnerSharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerSharingService.swift; sourceTree = "<group>"; };
+		B18C933E32789D2B5B506DA0 /* SymptomHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomHeatmapView.swift; sourceTree = "<group>"; };
+		B196844F46F9347CEFF748EB /* SexualActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualActivity.swift; sourceTree = "<group>"; };
+		B2C3D4E5F6071829A3B4C5D6 /* CalendarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarContainerView.swift; sourceTree = "<group>"; };
+		B2C3D4E5F6F708AB3456BCDE /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		B392290991CB044AAC5B65D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B541B0B6F1684C4755464168 /* ReportGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportGeneratorView.swift; sourceTree = "<group>"; };
+		B5B08F4C69A9BEB31A83F798 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		B5CDDFB054FEA7B364049AD6 /* PregnancyWeekData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyWeekData.swift; sourceTree = "<group>"; };
+		B614B7116BCBA7823F89E7FE /* BloomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomColors.swift; sourceTree = "<group>"; };
+		B8E3A4159E606EC3DC43E5F0 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		B98A9BD9DBF863E39D3626BF /* BloomHer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomHer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA00DD5F51D544F93E48DBA /* DataDeletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDeletionView.swift; sourceTree = "<group>"; };
+		BBA02144FEA0734F0FDD171F /* YogaPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPose.swift; sourceTree = "<group>"; };
+		BC1F084E4E63754B4FCE7F68 /* PregnancyWeekWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyWeekWidget.swift; sourceTree = "<group>"; };
+		BC372BD62E5229F8D73946C1 /* PregnancyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyDashboardView.swift; sourceTree = "<group>"; };
+		BF490794F2A5CBD20DAAF900 /* WidgetDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataProvider.swift; sourceTree = "<group>"; };
+		BF8DF53EA42DBAC8F392EDD6 /* SkinCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCondition.swift; sourceTree = "<group>"; };
+		C20FD3E98C96D354164E55AF /* CycleRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRepositoryTests.swift; sourceTree = "<group>"; };
+		C3D4E5F607182930B4C5D6E7 /* InsightsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsContainerView.swift; sourceTree = "<group>"; };
+		C485CDFA168EF26A0F12A081 /* NutritionTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTipsView.swift; sourceTree = "<group>"; };
+		C48E09D77AB7451AD31ED688 /* WellnessRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessRouter.swift; sourceTree = "<group>"; };
+		C4BA1A2FB631738110EBEDFB /* CycleDayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleDayWidget.swift; sourceTree = "<group>"; };
+		C54CDA003FC9E2884B3799FA /* PelvicFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelvicFloorView.swift; sourceTree = "<group>"; };
+		C656D1DCD53450ABB4E8612F /* BloomNavigationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomNavigationModifier.swift; sourceTree = "<group>"; };
+		C7A5FAA80E5AA0929E7BFDFD /* PrivacyPromisePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPromisePageView.swift; sourceTree = "<group>"; };
+		C9B05FE0DBBD05D1B04E1F0F /* SymptomSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomSelector.swift; sourceTree = "<group>"; };
+		C9CD65AC74010D9A9E713FB8 /* BloomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTextField.swift; sourceTree = "<group>"; };
+		CAF55106533FD017A4855966 /* BloomWaterDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomWaterDrop.swift; sourceTree = "<group>"; };
+		CB5D775813F0C7BC0CE12281 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CC13C950BFFC393142892733 /* ModeSelectionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionPageView.swift; sourceTree = "<group>"; };
+		CCBDDB9EBD5A0F8BE3051EE5 /* BloomBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomBanner.swift; sourceTree = "<group>"; };
+		CD5F596C49C628AF13E9A525 /* OPKResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPKResult.swift; sourceTree = "<group>"; };
+		CD820FB3D7103AE635D28E96 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		CE3C12CD90630805BD01119B /* FlowColourSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowColourSelector.swift; sourceTree = "<group>"; };
+		D0D77D22870FD8F2CE84A7A5 /* PartnerActionLoggerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerActionLoggerView.swift; sourceTree = "<group>"; };
+		D4460AA56515FED013221FF7 /* CycleLengthChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLengthChartView.swift; sourceTree = "<group>"; };
+		D624BB3BB65611CA8ECB6B8A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6HTBC00000002 /* HomeToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToolbarContent.swift; sourceTree = "<group>"; };
+		D6FE27779EDA2CA421A6F055 /* WeightTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingView.swift; sourceTree = "<group>"; };
+		D7DE54BFA15F812CE91D838A /* BBTChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTChartView.swift; sourceTree = "<group>"; };
+		D979A870751289C9F5579E4B /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		D9F48662B05808DB2A70C8F4 /* NavigationDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinations.swift; sourceTree = "<group>"; };
+		DC64FDD0C3483E91D224A27C /* FlowLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLevel.swift; sourceTree = "<group>"; };
+		DEB8EA66133B4CA4A8481B7F /* AIFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFloatingButton.swift; sourceTree = "<group>"; };
+		DF86BF5F514A4C7A5D93840C /* BloomHerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BloomHerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC0D61DA10611E3292702D7 /* BloomHerTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomHerTheme.swift; sourceTree = "<group>"; };
+		E151013C86C570A89904BBE2 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		E24CE09F6B202E76695FEFD3 /* InsightCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCardView.swift; sourceTree = "<group>"; };
+		E5668682007229434B272BB9 /* PersonalizationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationPageView.swift; sourceTree = "<group>"; };
+		E7A526E86AC48FE02259AAEB /* PoseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseCardView.swift; sourceTree = "<group>"; };
+		E7E00C230EE5B57E2F2B79E0 /* SleepLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLogger.swift; sourceTree = "<group>"; };
+		E7F87F2CCCF300D1505C96D8 /* TTCRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCRepository.swift; sourceTree = "<group>"; };
+		E84940E0EB7EA62C0519B5B8 /* YogaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaRepository.swift; sourceTree = "<group>"; };
+		E8CD9546298D32E7E0136E76 /* BloomChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomChip.swift; sourceTree = "<group>"; };
+		E95A917FE0876C7C35852912 /* SelfCareItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareItem.swift; sourceTree = "<group>"; };
+		EAE121DD6EB8171E76E0AF5E /* KickCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickCounterView.swift; sourceTree = "<group>"; };
+		EB852585A99CB9F709E33901 /* BloomHerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomHerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC688B7A757CD965DCC7F9E3 /* DataConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConfiguration.swift; sourceTree = "<group>"; };
+		EE8A5D392C5FDEA066295B00 /* PoseLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseLibraryView.swift; sourceTree = "<group>"; };
+		F0B164C9D2EE2966CBD38EDB /* BloomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTextEditor.swift; sourceTree = "<group>"; };
+		F1AFFF3C0294D1B776B23872 /* PregnancyWeekContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyWeekContent.swift; sourceTree = "<group>"; };
+		F1C4A3635792F5B1933BFCB9 /* BloomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomCard.swift; sourceTree = "<group>"; };
+		F2E166692F4A848D0090F2D7 /* BloomHer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BloomHer.entitlements; sourceTree = "<group>"; };
+		F4EFBF6DC14748D582FFFE46 /* AIAssistantChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantChatView.swift; sourceTree = "<group>"; };
+		F9DD4A339BF2E392E29DFDC8 /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		FA475A3F2E43CB9902563FB8 /* TodaySummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySummaryCard.swift; sourceTree = "<group>"; };
+		FAE6D0FB6980E3E0C681DC61 /* CrampLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrampLevel.swift; sourceTree = "<group>"; };
+		FB512509BA4057267A100EA4 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0001BECA8750343FCAE434F2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7812D13E0F9FA0836F87C3EF /* CalendarRouter.swift */,
+				D624BB3BB65611CA8ECB6B8A /* HomeRouter.swift */,
+				A1B2C3D4E5F6HTBC00000002 /* HomeToolbarContent.swift */,
+				0286F931038EB15499985F4B /* InsightsRouter.swift */,
+				606FA3D917756C8B6EF6FABD /* MainTabView.swift */,
+				D9F48662B05808DB2A70C8F4 /* NavigationDestinations.swift */,
+				750A57CEFD8F413FDB3A13FE /* ProfileRouter.swift */,
+				CB5D775813F0C7BC0CE12281 /* RootView.swift */,
+				C48E09D77AB7451AD31ED688 /* WellnessRouter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		019842834D111F3FFE518D60 /* BloomHerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E74FD18427B4CD9C89C0A60 /* CyclePredictionServiceTests.swift */,
+				C20FD3E98C96D354164E55AF /* CycleRepositoryTests.swift */,
+				9A575C4377A6957D47043047 /* EnumTests.swift */,
+				287D2211F6FFD32DB8555EB4 /* HomeViewModelTests.swift */,
+				32219148038BE8F2A8A2FF8C /* PartnerSharingServiceTests.swift */,
+				A82371E470C1DEA1CBACC67F /* WeightedMovingAverageTests.swift */,
+			);
+			path = BloomHerTests;
+			sourceTree = "<group>";
+		};
+		0C7442A267A0D900FA3E5028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98A9BD9DBF863E39D3626BF /* BloomHer.app */,
+				81EBB7325C1485CC2F7FDA74 /* BloomHerTests.xctest */,
+				EB852585A99CB9F709E33901 /* BloomHerUITests.xctest */,
+				DF86BF5F514A4C7A5D93840C /* BloomHerWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		316AA9BF65433B7663AD033D /* Wellness */ = {
+			isa = PBXGroup;
+			children = (
+				194BEB2E58E906EBFBC4F236 /* AffirmationCardView.swift */,
+				43E37681C58ACEB2FC0C76B3 /* BreathingExerciseView.swift */,
+				8FFEA7AE59BA643CAE0DC115 /* GratitudeJournalView.swift */,
+				C485CDFA168EF26A0F12A081 /* NutritionTipsView.swift */,
+				6742DC279751B6AEFE70A139 /* SelfCareChecklistView.swift */,
+				6CB627AA97F03CD0B2C2F1E7 /* SupplementReminderView.swift */,
+				53F93DD80412ECBF4C0B0EC1 /* WaterTrackerView.swift */,
+				5D97FD38E779915631AA31EA /* WellnessHomeView.swift */,
+				83AF1D3E75943DB800BAD30B /* WellnessViewModel.swift */,
+			);
+			path = Wellness;
+			sourceTree = "<group>";
+		};
+		38CB3F2DAEFCEF71C994B999 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				D4460AA56515FED013221FF7 /* CycleLengthChartView.swift */,
+				E24CE09F6B202E76695FEFD3 /* InsightCardView.swift */,
+				C3D4E5F607182930B4C5D6E7 /* InsightsContainerView.swift */,
+				47FD358724D3EE7FB5B29AE9 /* InsightsTabView.swift */,
+				9919BFB5A879EB2FB6CB8EE6 /* InsightsViewModel.swift */,
+				064A2428BAABDCC41C8F6FEF /* MoodPatternsView.swift */,
+				B541B0B6F1684C4755464168 /* ReportGeneratorView.swift */,
+				B18C933E32789D2B5B506DA0 /* SymptomHeatmapView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		39AC737D8641E7D36922EC7E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				228D30482CA721E79DB6B816 /* DaysLateBanner.swift */,
+				1CA28420AC9F4E2E8DED5F9B /* HomeContainerView.swift */,
+				3516D4782380A37729F7B349 /* HomeView.swift */,
+				7ACADC562EA50780542EC628 /* HomeViewModel.swift */,
+				22F8EAF1351F5ED165493326 /* PhaseInfoCard.swift */,
+				7AE3655D1C45A8BBB03873AF /* QuickLogSection.swift */,
+				FA475A3F2E43CB9902563FB8 /* TodaySummaryCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		47ABAB65F70D273C615D0538 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD9753FB24B1FC5FAEBE67 /* BloomCardModifier.swift */,
+				A1B2C3D4E5F60002GLASS01 /* BloomGlassModifier.swift */,
+				C656D1DCD53450ABB4E8612F /* BloomNavigationModifier.swift */,
+				07350D6B6AFEBE2FAE58FAFE /* BloomPrimaryButtonModifier.swift */,
+				5784B46F4EE59B8A0BB7649C /* BloomScrollModifier.swift */,
+				8C50BA94F19F8F1F0C3D1E45 /* PhaseBorderModifier.swift */,
+				F9DD4A339BF2E392E29DFDC8 /* ScaleButtonStyle.swift */,
+				5A7B91113FF67415AC3D4667 /* ShimmerModifier.swift */,
+				53CDDA1F2CC7B88E629ABE8B /* StaggeredAppearModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		484F995CEC8D7627951FF32F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B614B7116BCBA7823F89E7FE /* BloomColors.swift */,
+				DFC0D61DA10611E3292702D7 /* BloomHerTheme.swift */,
+				13BFC2A2A6CF0FBC37E6CF45 /* BloomShadow.swift */,
+				AB9E9C1905DB06DCA9443DD6 /* PhaseThemeEnvironment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		48DAE584CC358C763BF1CA61 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C0E253E862A940F82163 /* AppDependencies.swift */,
+				0CA088C0C3EFCD4DB40DAC5D /* BloomHerApp.swift */,
+				EC688B7A757CD965DCC7F9E3 /* DataConfiguration.swift */,
+				A1B2C3D4E5F60718293A4B5C /* SplashScreenView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4BE750E16B1D016B004FE910 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				290CA36D2F5CE67A141EFD2B /* CalendarMonthHeader.swift */,
+				B2C3D4E5F6071829A3B4C5D6 /* CalendarContainerView.swift */,
+				5AAF8BB28FF2A6DD15013575 /* CalendarViewModel.swift */,
+				7E851ABE3D7AE219A557EDBF /* CycleCalendarView.swift */,
+				AA02293EB34AD3E137232C8A /* CycleLengthStatsBar.swift */,
+				1B59B065E32DF971217DD8E1 /* DayDetailSheet.swift */,
+				69C2F4D99AFD7F5B913CF8ED /* DayDetailViewModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		4E1B5057F507090F3402FA36 /* ContentData */ = {
+			isa = PBXGroup;
+			children = (
+				347D2A146B09FF90FD5B06FF /* AffirmationData.swift */,
+				A9D32917E040E0CF0F5C35F0 /* ChecklistData.swift */,
+				6E8957677F95DCBEC3FA5EFA /* NutritionData.swift */,
+				0A34A8E6174887A2CA8B6208 /* PartnerEducationData.swift */,
+				B5CDDFB054FEA7B364049AD6 /* PregnancyWeekData.swift */,
+				2ADBF41D2CE763400DE02CCA /* SelfCareData.swift */,
+				7EF230A6EE11CCD3BDA62B31 /* YogaPoseData.swift */,
+				38CE757C63EE5EE22C509DBE /* YogaRoutineData.swift */,
+			);
+			path = ContentData;
+			sourceTree = "<group>";
+		};
+		5329A29E885BBD11921C65D8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				09F9B573D6A605EA4435DE4D /* CycleHistoryPageView.swift */,
+				CC13C950BFFC393142892733 /* ModeSelectionPageView.swift */,
+				FB512509BA4057267A100EA4 /* OnboardingFlow.swift */,
+				7E5D1A9350C242D33C7036A3 /* OnboardingViewModel.swift */,
+				E5668682007229434B272BB9 /* PersonalizationPageView.swift */,
+				C7A5FAA80E5AA0929E7BFDFD /* PrivacyPromisePageView.swift */,
+				418A552E4B5F559964C923E2 /* WelcomePageView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		55E14971960F5C9024396889 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				7B070F637F4987D7000BFED1 /* Affirmation.swift */,
+				CD820FB3D7103AE635D28E96 /* Appointment.swift */,
+				28BCF58540F42AC2EE176B35 /* BBTEntry.swift */,
+				37235452B5B35B9F492AC1D7 /* ContractionEntry.swift */,
+				A3CC8460C51D26CCF7712222 /* CycleEntry.swift */,
+				5476FF6A720D5F10CAFB1424 /* DailyLog.swift */,
+				223DB94EFE8758486C943717 /* KickSession.swift */,
+				CD5F596C49C628AF13E9A525 /* OPKResult.swift */,
+				1394BC1BA0C0F4C895E28AA7 /* PartnerShare.swift */,
+				85D8A50C6AFBE58B22225C68 /* PregnancyProfile.swift */,
+				4D2475BA6621C87ABF4D4EC0 /* WeeklyChecklist.swift */,
+				4FCCB2A3F8189FF176465E36 /* WeightEntry.swift */,
+				31D919EEDA3F5471D59570E8 /* YogaSession.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		57D485C726E9E8F60B579EBA = {
+			isa = PBXGroup;
+			children = (
+				EB47F2E34B869F3B2D474EF9 /* BloomHer */,
+				019842834D111F3FFE518D60 /* BloomHerTests */,
+				91317EE854EE9534392C9AF3 /* BloomHerUITests */,
+				A7D19619501322893AE9F03C /* BloomHerWidget */,
+				0C7442A267A0D900FA3E5028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B269B5D456CDCFCDB3B0FA7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D979A870751289C9F5579E4B /* ColorExtensions.swift */,
+				9BE3BDF98E01AE1496162715 /* Constants.swift */,
+				44A6674A7BB05521A56895DA /* DateExtensions.swift */,
+				0AAB308AE3907B75C6D3B038 /* HapticManager.swift */,
+				152513262EB1DC6B1A4D546F /* NumberFormatting.swift */,
+				B8E3A4159E606EC3DC43E5F0 /* ViewExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5DBD41016FE36E1027CEEF2F /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A6B0973FFB540DC213813 /* AffirmationContent.swift */,
+				06F953E5414DE6F2FCC7368E /* NutritionTip.swift */,
+				F1AFFF3C0294D1B776B23872 /* PregnancyWeekContent.swift */,
+				E95A917FE0876C7C35852912 /* SelfCareItem.swift */,
+				BBA02144FEA0734F0FDD171F /* YogaPose.swift */,
+				99747885428589EF2E76E4FB /* YogaRoutine.swift */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		8765B9A6BA52226F0017EBAE /* TTC */ = {
+			isa = PBXGroup;
+			children = (
+				D7DE54BFA15F812CE91D838A /* BBTChartView.swift */,
+				4AA15B7A6F2C2F1C8FF4B3AA /* FertileWindowView.swift */,
+				1F46BA8D55E830CD26316C89 /* OPKLoggingView.swift */,
+				3A1397AC36A947ED12E7FD28 /* TTCDashboardView.swift */,
+				21F35B4CE4787172A61D43BF /* TTCJournalView.swift */,
+				AC8BF12DFC95A554871EA1E9 /* TTCViewModel.swift */,
+			);
+			path = TTC;
+			sourceTree = "<group>";
+		};
+		8FCB3D49F238B3A164FBAA97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B392290991CB044AAC5B65D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91317EE854EE9534392C9AF3 /* BloomHerUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BloomHerUITests;
+			sourceTree = "<group>";
+		};
+		9C44A11EB32D9D74E2C20437 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				56FF72B2E2499CB7EB181E0C /* CrampIntensitySelector.swift */,
+				6B217EA7C6E2673F21A39890 /* DischargeSelector.swift */,
+				89DC8F2F68E52D26A1D29115 /* EnergyLevelSelector.swift */,
+				CE3C12CD90630805BD01119B /* FlowColourSelector.swift */,
+				6C639AD68AE71A31CA020476 /* FlowSelector.swift */,
+				A68D094DA8C7F267EACA23E0 /* MoodSelector.swift */,
+				E7E00C230EE5B57E2F2B79E0 /* SleepLogger.swift */,
+				5CEB1FD3B0EB0A812071A32A /* SymptomLogQuickSheet.swift */,
+				C9B05FE0DBBD05D1B04E1F0F /* SymptomSelector.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		9D85BCA0503043B84215AA5B /* Illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				627323301FED6E7F1414B69D /* BloomFlowerGrowth.swift */,
+				A8699FD42919B0575B33EA00 /* BloomFruitBaby.swift */,
+				CAF55106533FD017A4855966 /* BloomWaterDrop.swift */,
+				42CEE1824E0210E9CDE42066 /* BreathingCircle.swift */,
+				A3C592D14B7F830E6D1A4F28 /* DoveSymbol.swift */,
+				AD6303114491072FB8EDD34D /* FlowerShapes.swift */,
+				3A7ED70D40438666E6A9CA3F /* FruitShapes.swift */,
+				5950CBD77CD2CB23F5C0DD08 /* KawaiiFace.swift */,
+				9425C729AE5E43B3F3E51901 /* KawaiiIllustration.swift */,
+				9006EF7669B867EA28D7648E /* ParticleEffects.swift */,
+			);
+			path = Illustrations;
+			sourceTree = "<group>";
+		};
+		A1BE8BE1F43BDE55502516A9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDDB9EBD5A0F8BE3051EE5 /* BloomBanner.swift */,
+				1EC33532044396933D5755D9 /* BloomButton.swift */,
+				F1C4A3635792F5B1933BFCB9 /* BloomCard.swift */,
+				E8CD9546298D32E7E0136E76 /* BloomChip.swift */,
+				25CE0BA0548ECCB268ED8262 /* BloomDatePicker.swift */,
+				09884DDEB2296C4E0C5DC9CA /* BloomHeader.swift */,
+				97B1B96598FABD6DFAD428B1 /* BloomMedicalDisclaimer.swift */,
+				5BDCCE17AEF18536B17604E7 /* BloomProgressBar.swift */,
+				42110572AC5CCF1E019A609B /* BloomSegmentedControl.swift */,
+				76E6D9AD39C2BBE5D6D17C00 /* BloomShareSheet.swift */,
+				3F83E731932CF14B5CD3F555 /* BloomSlider.swift */,
+				6A4ABFD8B0007077144E9E39 /* BloomTabBar.swift */,
+				F0B164C9D2EE2966CBD38EDB /* BloomTextEditor.swift */,
+				C9CD65AC74010D9A9E713FB8 /* BloomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A7D19619501322893AE9F03C /* BloomHerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				280F4016A1636DBDC848C501 /* BloomHerWidgetBundle.swift */,
+				C4BA1A2FB631738110EBEDFB /* CycleDayWidget.swift */,
+				BC1F084E4E63754B4FCE7F68 /* PregnancyWeekWidget.swift */,
+				A1232D1118F8742099E33826 /* WaterIntakeWidget.swift */,
+				BF490794F2A5CBD20DAAF900 /* WidgetDataProvider.swift */,
+			);
+			path = BloomHerWidget;
+			sourceTree = "<group>";
+		};
+		AC0711D6A28979CE3E822699 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EFEFB49DBBC446F5B30F23E8 /* AI */,
+				4BE750E16B1D016B004FE910 /* Calendar */,
+				39AC737D8641E7D36922EC7E /* Home */,
+				38CB3F2DAEFCEF71C994B999 /* Insights */,
+				9C44A11EB32D9D74E2C20437 /* Logging */,
+				5329A29E885BBD11921C65D8 /* Onboarding */,
+				D10F9EC387EBA083D530D3D5 /* Partner */,
+				ED783853EE90E11D64B04295 /* Pregnancy */,
+				FFFB089DEF4E8037CA9E69A2 /* Settings */,
+				8765B9A6BA52226F0017EBAE /* TTC */,
+				316AA9BF65433B7663AD033D /* Wellness */,
+				BF87F67C40078D4603F82EBE /* Yoga */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		ADC5776AC20319079C233C6D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F607891234ABCD /* AuthenticationService.swift */,
+				0F0B764333F3439292B9CF45 /* AIAssistantService.swift */,
+				A87721B046BF14C9E1A60DE4 /* CyclePredictionService.swift */,
+				B5B08F4C69A9BEB31A83F798 /* HealthKitService.swift */,
+				A3095E91178A0B0986F3E596 /* NotificationService.swift */,
+				AFD7D3AAD29F93267CA440E9 /* PartnerSharingService.swift */,
+				16B7548F0BA37ED7C414912F /* PDFGeneratorService.swift */,
+				3500826BAF08D2436DF5C102 /* SettingsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B024C6867B6A562EE4DF46CD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AF4E9249A901478687655E6E /* AppMode.swift */,
+				FAE6D0FB6980E3E0C681DC61 /* CrampLevel.swift */,
+				4265F58C48AF72747063CC5D /* CyclePhase.swift */,
+				73D218DB4E07BF09891E93E7 /* DischargeType.swift */,
+				6131A084905652DEC060CDD5 /* ExerciseCategory.swift */,
+				2B9481F284EF9E9D39F8D1A4 /* FlowColour.swift */,
+				DC64FDD0C3483E91D224A27C /* FlowLevel.swift */,
+				685C751A4810F6E6390C3946 /* Mood.swift */,
+				41A9E0D63A874FF6B7022B4E /* OPKLevel.swift */,
+				B196844F46F9347CEFF748EB /* SexualActivity.swift */,
+				BF8DF53EA42DBAC8F392EDD6 /* SkinCondition.swift */,
+				87FF3151968D2FD1B72B4F4A /* Symptom.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BF87F67C40078D4603F82EBE /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				897E2E2931A17BC402FF3CF4 /* ActiveRoutineView.swift */,
+				AB8497D104D174C55B71D364 /* CategoryCard.swift */,
+				C54CDA003FC9E2884B3799FA /* PelvicFloorView.swift */,
+				E7A526E86AC48FE02259AAEB /* PoseCardView.swift */,
+				EE8A5D392C5FDEA066295B00 /* PoseLibraryView.swift */,
+				42ADF67F7CF1A505CA80E2A2 /* RoutineDetailView.swift */,
+				6FF2525C005BEEC12362A83E /* RoutineListView.swift */,
+				2FB6808FBA6904CE8E4AE51E /* RoutineTimerRing.swift */,
+				343BD438F166401E4646B77B /* YogaHomeView.swift */,
+				7BF499936BC9CF353F2EECF7 /* YogaViewModel.swift */,
+			);
+			path = Yoga;
+			sourceTree = "<group>";
+		};
+		C91BF0EC20EF8A2127B016DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B024C6867B6A562EE4DF46CD /* Enums */,
+				5DBD41016FE36E1027CEEF2F /* Static */,
+				55E14971960F5C9024396889 /* SwiftData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10F9EC387EBA083D530D3D5 /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				D0D77D22870FD8F2CE84A7A5 /* PartnerActionLoggerView.swift */,
+				A1B2C3D4E5F6PCDE00000002 /* PartnerCodeEntryView.swift */,
+				155CEE461DE8AFD84293B99F /* PartnerDashboardView.swift */,
+				7B8A5CD7C1D4B12956C790EA /* PartnerEducationCardView.swift */,
+				328AA5A9C8BB1AD2EE292E32 /* PartnerSetupView.swift */,
+				6E5C95D51C7415F14E7F8EE7 /* PartnerViewModel.swift */,
+			);
+			path = Partner;
+			sourceTree = "<group>";
+		};
+		D9F7E7BEC2B3B181CF55E06A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				44BA741C4C66E836FC05A3CA /* CycleRepository.swift */,
+				27F77158764B2BC2B987E122 /* PregnancyRepository.swift */,
+				97EBEBEED0B4C62CA8AA5C08 /* RepositoryProtocols.swift */,
+				E7F87F2CCCF300D1505C96D8 /* TTCRepository.swift */,
+				7587187620E9FCA2B3703730 /* WellnessRepository.swift */,
+				E84940E0EB7EA62C0519B5B8 /* YogaRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EB47F2E34B869F3B2D474EF9 /* BloomHer */ = {
+			isa = PBXGroup;
+			children = (
+				F2E166692F4A848D0090F2D7 /* BloomHer.entitlements */,
+				48DAE584CC358C763BF1CA61 /* App */,
+				4E1B5057F507090F3402FA36 /* ContentData */,
+				FB2A2BE2DAC4D33269C8EF7A /* DesignSystem */,
+				AC0711D6A28979CE3E822699 /* Features */,
+				C91BF0EC20EF8A2127B016DB /* Models */,
+				0001BECA8750343FCAE434F2 /* Navigation */,
+				D9F7E7BEC2B3B181CF55E06A /* Repositories */,
+				8FCB3D49F238B3A164FBAA97 /* Resources */,
+				ADC5776AC20319079C233C6D /* Services */,
+				5B269B5D456CDCFCDB3B0FA7 /* Utilities */,
+			);
+			path = BloomHer;
+			sourceTree = "<group>";
+		};
+		ED783853EE90E11D64B04295 /* Pregnancy */ = {
+			isa = PBXGroup;
+			children = (
+				5E66C4DCD56155398FA7AC08 /* AppointmentListView.swift */,
+				916291744D5AE2D563685601 /* BirthPlanBuilderView.swift */,
+				A50A5D00999704261FA7D264 /* ContractionTimerView.swift */,
+				EAE121DD6EB8171E76E0AF5E /* KickCounterView.swift */,
+				51D6520E49A3E200D6831931 /* PregnancyChecklistView.swift */,
+				BC372BD62E5229F8D73946C1 /* PregnancyDashboardView.swift */,
+				31DF811D8A27E22D86EB37FC /* PregnancySetupSheet.swift */,
+				3BB000EF6D414E462E06FABB /* PregnancyViewModel.swift */,
+				1DB4F8C935D9C7E5EAC9A7B8 /* WeekByWeekView.swift */,
+				D6FE27779EDA2CA421A6F055 /* WeightTrackingView.swift */,
+			);
+			path = Pregnancy;
+			sourceTree = "<group>";
+		};
+		EFEFB49DBBC446F5B30F23E8 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				F4EFBF6DC14748D582FFFE46 /* AIAssistantChatView.swift */,
+				DEB8EA66133B4CA4A8481B7F /* AIFloatingButton.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		FB2A2BE2DAC4D33269C8EF7A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				654197EBDB9A2387646479F0 /* BloomIcons.swift */,
+				A1BE8BE1F43BDE55502516A9 /* Components */,
+				9D85BCA0503043B84215AA5B /* Illustrations */,
+				47ABAB65F70D273C615D0538 /* Modifiers */,
+				484F995CEC8D7627951FF32F /* Theme */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		FFFB089DEF4E8037CA9E69A2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				73DF1D1BA41CD33611AD19FD /* AboutView.swift */,
+				3FC8E3F6B84B0882C192CC07 /* AppearanceSettingsView.swift */,
+				BBA00DD5F51D544F93E48DBA /* DataDeletionView.swift */,
+				93D41AF9ED95539111AA0A5D /* HealthKitSettingsView.swift */,
+				59226441AAD7C09659782D91 /* MedicalDisclaimerView.swift */,
+				A7B3C2D1E0F987654321EF01 /* PrivacyPolicyView.swift */,
+				E151013C86C570A89904BBE2 /* NotificationSettingsView.swift */,
+				6206361DD63F84282719A640 /* PrivacySettingsView.swift */,
+				629BE1BB52FFF881CE9FD707 /* SettingsView.swift */,
+				B2C3D4E5F6F708AB3456BCDE /* SignInWithAppleView.swift */,
+				6EBFE0AFF2EB24ED4430FAD8 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02554C7B9213550FC6BBE89D /* BloomHerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945405899E666E9D1B7B58AA /* Build configuration list for PBXNativeTarget "BloomHerWidget" */;
+			buildPhases = (
+				AD3A52EF94980A56C121FC10 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986BA4162A7DB0FB6B644049 /* PBXTargetDependency */,
+			);
+			name = BloomHerWidget;
+			packageProductDependencies = (
+			);
+			productName = BloomHerWidget;
+			productReference = DF86BF5F514A4C7A5D93840C /* BloomHerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		383F6671A834C89DBC3F12DB /* BloomHerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A24C036074B212E4ED75EC0 /* Build configuration list for PBXNativeTarget "BloomHerUITests" */;
+			buildPhases = (
+				491DAF1EF335E7C1F6D643DC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D6DDFF006320FD81D14458 /* PBXTargetDependency */,
+			);
+			name = BloomHerUITests;
+			packageProductDependencies = (
+			);
+			productName = BloomHerUITests;
+			productReference = EB852585A99CB9F709E33901 /* BloomHerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3E155C859652CA350A48B11F /* BloomHerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7D7CC4A18BD92468D9B5EF /* Build configuration list for PBXNativeTarget "BloomHerTests" */;
+			buildPhases = (
+				1B47EC722A93E3DBE98EB08E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22A960C8C0640CB50C926E0 /* PBXTargetDependency */,
+			);
+			name = BloomHerTests;
+			packageProductDependencies = (
+			);
+			productName = BloomHerTests;
+			productReference = 81EBB7325C1485CC2F7FDA74 /* BloomHerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B6D5F4CAB5858BD85F2D17 /* BloomHer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633895103EA18F57DA180B02 /* Build configuration list for PBXNativeTarget "BloomHer" */;
+			buildPhases = (
+				408C09836BDFD916E103E6DD /* Sources */,
+				53F3EE9209E24AA3F71043D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomHer;
+			packageProductDependencies = (
+			);
+			productName = BloomHer;
+			productReference = B98A9BD9DBF863E39D3626BF /* BloomHer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCC3CE25EFE5FA817FDDA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					383F6671A834C89DBC3F12DB = {
+						TestTargetID = 92B6D5F4CAB5858BD85F2D17;
+					};
+					92B6D5F4CAB5858BD85F2D17 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9674B9969121BFB0AF3BB4EA /* Build configuration list for PBXProject "BloomHer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 57D485C726E9E8F60B579EBA;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B6D5F4CAB5858BD85F2D17 /* BloomHer */,
+				3E155C859652CA350A48B11F /* BloomHerTests */,
+				383F6671A834C89DBC3F12DB /* BloomHerUITests */,
+				02554C7B9213550FC6BBE89D /* BloomHerWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F3EE9209E24AA3F71043D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95700F8F7A8F71793AEA6E96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B47EC722A93E3DBE98EB08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368AEF17F3D50A6A3E51F607 /* CyclePredictionServiceTests.swift in Sources */,
+				E6F3DEB78B365CF813BF01DD /* CycleRepositoryTests.swift in Sources */,
+				A6B1545DCBD5FE62B913ECC4 /* EnumTests.swift in Sources */,
+				D9EF4D6CC3041030B8A1CF06 /* HomeViewModelTests.swift in Sources */,
+				3D4B947489CF3201E2510512 /* PartnerSharingServiceTests.swift in Sources */,
+				3BDD310A687BB09C0B1F7126 /* WeightedMovingAverageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408C09836BDFD916E103E6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024AEB825B0F4B6D8028F524 /* AIAssistantService.swift in Sources */,
+				7B6FEFE250864A94ADEA0675 /* AIAssistantChatView.swift in Sources */,
+				278FA3CF744F471C9180705E /* AIFloatingButton.swift in Sources */,
+				BFBDFC2B92885A0D463D4EBB /* AboutView.swift in Sources */,
+				ECD5325C8DFB16BD361755ED /* ActiveRoutineView.swift in Sources */,
+				488AC5CC57A92CBF8883BBEA /* Affirmation.swift in Sources */,
+				AC19ECA926227D87E69A1948 /* AffirmationCardView.swift in Sources */,
+				B8EF70212FE11E9A35425F8A /* AffirmationContent.swift in Sources */,
+				6B41D87E2501C285C18DB852 /* AffirmationData.swift in Sources */,
+				DC190BD5F198091BD0D0BB3D /* AppDependencies.swift in Sources */,
+				9B6E4BDF61C487C1E7C4D7DD /* AppMode.swift in Sources */,
+				759C437A6C8AAA08D75E94DE /* AppearanceSettingsView.swift in Sources */,
+				D99FAE8F7B46633F7DC0BE8C /* Appointment.swift in Sources */,
+				1C554223E82D08ACD0F2DF2C /* AppointmentListView.swift in Sources */,
+				8455939B37DEAD7836568C23 /* BBTChartView.swift in Sources */,
+				C506D484ABA2B45D02CB58AF /* BBTEntry.swift in Sources */,
+				361B4875F62ACE0A40A2068A /* BirthPlanBuilderView.swift in Sources */,
+				673A5B29AB72749B742791E8 /* BloomBanner.swift in Sources */,
+				537273A480133D006174563E /* BloomButton.swift in Sources */,
+				3B8EDFC1D8B993850D458FB6 /* BloomCard.swift in Sources */,
+				CA6F1AE9D32A6D470AB98091 /* BloomCardModifier.swift in Sources */,
+				A1B2C3D4E5F60001GLASS01 /* BloomGlassModifier.swift in Sources */,
+				B2F61FB99E963A27ED58AD7C /* BloomChip.swift in Sources */,
+				19AA204D2C5EB7D2498E350E /* BloomIcons.swift in Sources */,
+				CFF9978F645EEE08367F3F6A /* BloomColors.swift in Sources */,
+				C22501E439AFD1CF0B2516B8 /* BloomDatePicker.swift in Sources */,
+				CFC7E627B847E66894A41A79 /* BloomFlowerGrowth.swift in Sources */,
+				D17A3C8B2F4E09A15C6B82D3 /* DoveSymbol.swift in Sources */,
+				23297E9696F99207B7A3D08D /* BloomFruitBaby.swift in Sources */,
+				DFE66F8928B40C8ECBAF7AFA /* BloomHeader.swift in Sources */,
+				29121EED8F4CD8A2296F7A81 /* BloomHerApp.swift in Sources */,
+				7821BB351D81311E5622001C /* BloomHerTheme.swift in Sources */,
+				9AAECE3ECD066834F0C1F44D /* BloomMedicalDisclaimer.swift in Sources */,
+				4F1832C99AC814FC03432036 /* BloomNavigationModifier.swift in Sources */,
+				981D4BA74F613647A0944DFD /* BloomPrimaryButtonModifier.swift in Sources */,
+				B6F59682AD042CC739BC004B /* BloomProgressBar.swift in Sources */,
+				1A4A7EABC306D5C1DD2A458A /* BloomScrollModifier.swift in Sources */,
+				58025D30D324E6B77E0954D5 /* BloomSegmentedControl.swift in Sources */,
+				694301DB85903A3AD3351263 /* BloomShadow.swift in Sources */,
+				535F255DCA4E2D7585117628 /* BloomShareSheet.swift in Sources */,
+				2DBEC6CD34E09D15D9EA5216 /* BloomSlider.swift in Sources */,
+				603FB36340E50AF657BECB57 /* BloomTabBar.swift in Sources */,
+				1317BD6C432FC85AB6FB4C19 /* BloomTextEditor.swift in Sources */,
+				CB03226B25E35B66C36BD89E /* BloomTextField.swift in Sources */,
+				0C86FFE31F35FCCD529B92F6 /* BloomWaterDrop.swift in Sources */,
+				17AE87A34AF83474787DAF46 /* BreathingCircle.swift in Sources */,
+				B7F85B044030A469B8853ACF /* BreathingExerciseView.swift in Sources */,
+				D4E1ED00A3E73A88AB010361 /* CalendarMonthHeader.swift in Sources */,
+				E6F7A8B9C0D1E2F3A4B5C6D7 /* CalendarContainerView.swift in Sources */,
+				0EE6059A9CE106F8402354DC /* CalendarRouter.swift in Sources */,
+				B70E6F1BA4F0C266698AEA3B /* CalendarViewModel.swift in Sources */,
+				22453929A1F72AA87E5428B5 /* CategoryCard.swift in Sources */,
+				0D1E46F3E230A9BA0A447FF9 /* ChecklistData.swift in Sources */,
+				27CE64EBB445CEA0AD9F6EEE /* ColorExtensions.swift in Sources */,
+				3486E3055228881D167DCFB2 /* Constants.swift in Sources */,
+				16745924315D84E9D7E4CA86 /* ContractionEntry.swift in Sources */,
+				5589B7CEB87D822135761919 /* ContractionTimerView.swift in Sources */,
+				FBB479AC00EB2A8582571D94 /* CrampIntensitySelector.swift in Sources */,
+				7BE423352DB3C789170093C2 /* CrampLevel.swift in Sources */,
+				C55CEEB9C8A01C0FD9FAFE1A /* CycleCalendarView.swift in Sources */,
+				986A6C6E96568014FA4087C9 /* CycleEntry.swift in Sources */,
+				E7DA67B5A9C45E7B706695EF /* CycleHistoryPageView.swift in Sources */,
+				C4D728F9ACAD55B084D860F9 /* CycleLengthChartView.swift in Sources */,
+				FC74BE66008E8643ACC1D7BB /* CycleLengthStatsBar.swift in Sources */,
+				961FFA434404A568FE0E20E8 /* CyclePhase.swift in Sources */,
+				CACC7DB7B43F455DDAD62778 /* CyclePredictionService.swift in Sources */,
+				A71CC863C3182987C8CC310F /* CycleRepository.swift in Sources */,
+				D0742C406263E7FC760174A4 /* DailyLog.swift in Sources */,
+				AE6DC035B18FA72D110B05EC /* DataConfiguration.swift in Sources */,
+				94BD0F015AF6D40D745099A7 /* DataDeletionView.swift in Sources */,
+				D8C7B7B8EE74C558CDC2727C /* DateExtensions.swift in Sources */,
+				FB32DF4B729C7EF327E11F07 /* DayDetailSheet.swift in Sources */,
+				644A3E073A87E07080D2D62D /* DayDetailViewModel.swift in Sources */,
+				DD3554046F01B4E80A6B16BD /* DaysLateBanner.swift in Sources */,
+				7B98D57CC6B4700C8930BA50 /* DischargeSelector.swift in Sources */,
+				41FBA95C38CF47D51A2E5DD5 /* DischargeType.swift in Sources */,
+				102EDF2BE105E913144F15DE /* EnergyLevelSelector.swift in Sources */,
+				3070CC021DF4289C237DC9BD /* ExerciseCategory.swift in Sources */,
+				17467FB0C11A6B53CBE824A0 /* FertileWindowView.swift in Sources */,
+				E202C7CE84851B5009275FB1 /* FlowColour.swift in Sources */,
+				E472252C542C7F567DF9176F /* FlowColourSelector.swift in Sources */,
+				02FEDFC1715BB9B7A4734979 /* FlowLevel.swift in Sources */,
+				6808B6B86A5A1047B464ABC4 /* FlowSelector.swift in Sources */,
+				63BFE76B738AADDEBFFD7631 /* FlowerShapes.swift in Sources */,
+				CF9B15DFF9A6623715925C85 /* FruitShapes.swift in Sources */,
+				F8B9D009B60343A26E2E6908 /* GratitudeJournalView.swift in Sources */,
+				4FF31E49D54D43F8ECB31E43 /* HapticManager.swift in Sources */,
+				E4A1B2C3D5F6078912345678 /* AuthenticationService.swift in Sources */,
+				17422FFAA9301E1A064383F5 /* HealthKitService.swift in Sources */,
+				E25D11BF01F01A7ABCBA7A11 /* HealthKitSettingsView.swift in Sources */,
+				979F05B193CDF3643B13AEDD /* HomeContainerView.swift in Sources */,
+				5481941CA97AB08B2085CE3E /* HomeRouter.swift in Sources */,
+				A1B2C3D4E5F6HTBC00000001 /* HomeToolbarContent.swift in Sources */,
+				166719615EE24174F12C475D /* HomeView.swift in Sources */,
+				EC27C8B040A42D83307E6089 /* HomeViewModel.swift in Sources */,
+				36CDBC697C691C5857BE00F2 /* InsightCardView.swift in Sources */,
+				F7A8B9C0D1E2F3A4B5C6D7E8 /* InsightsContainerView.swift in Sources */,
+				CDF79D04B8088C81E1537C08 /* InsightsRouter.swift in Sources */,
+				5376958A618D578B1E57D258 /* InsightsTabView.swift in Sources */,
+				EA5FF0DDE43AB72538570809 /* InsightsViewModel.swift in Sources */,
+				D64878B182B87C8B7D5D19EF /* KawaiiFace.swift in Sources */,
+				489D4FBCC699F956FE87E554 /* KawaiiIllustration.swift in Sources */,
+				1F74148503315C875FF4F04E /* KickCounterView.swift in Sources */,
+				582BD9B9A469ED553111F397 /* KickSession.swift in Sources */,
+				B56E1F91AF9E087551CBD2F7 /* MainTabView.swift in Sources */,
+				215343DBC1B9774ADB818788 /* MedicalDisclaimerView.swift in Sources */,
+				00AC8D49972BDB5AD6B25290 /* ModeSelectionPageView.swift in Sources */,
+				CE88B07B5F7C43963D7F0C5E /* Mood.swift in Sources */,
+				D0E535C0F1059F00A59E4555 /* MoodPatternsView.swift in Sources */,
+				6F1370C9396CB9FE89BA251B /* MoodSelector.swift in Sources */,
+				9037788E1C21F69EB74308BE /* NavigationDestinations.swift in Sources */,
+				5C0802CEE763DC4084369AC0 /* NotificationService.swift in Sources */,
+				835DA260FFC7B69B3009EC58 /* NotificationSettingsView.swift in Sources */,
+				6D5EFA27DEFDB425880EC4CE /* NumberFormatting.swift in Sources */,
+				8B39609BFEDD539BA57C6D97 /* NutritionData.swift in Sources */,
+				41D2BFBD59A7D483AA647022 /* NutritionTip.swift in Sources */,
+				99B832308FD99BDF35BD3277 /* NutritionTipsView.swift in Sources */,
+				AE94BEB4D58F91ED60BFB183 /* OPKLevel.swift in Sources */,
+				DCC417FA7713A4240C13575B /* OPKLoggingView.swift in Sources */,
+				0ACF87917B3194EDF2BF3B96 /* OPKResult.swift in Sources */,
+				F30A130504DAEA0700CF6893 /* OnboardingFlow.swift in Sources */,
+				3902E7323F7E75E1EB32894A /* OnboardingViewModel.swift in Sources */,
+				ECD8CC767233E8F8B60C73E2 /* PDFGeneratorService.swift in Sources */,
+				50888623C31A1C3B151638DB /* ParticleEffects.swift in Sources */,
+				2A8890D5B552DBD35F477420 /* PartnerActionLoggerView.swift in Sources */,
+				A1B2C3D4E5F6PCDE00000001 /* PartnerCodeEntryView.swift in Sources */,
+				66CEDA6DDA5AFD2E6246950F /* PartnerDashboardView.swift in Sources */,
+				B52E380B8A106F59680830D4 /* PartnerEducationCardView.swift in Sources */,
+				E767EFB9B2FDC5698F68B2CA /* PartnerEducationData.swift in Sources */,
+				D03AFB95A932A27F01DD0B35 /* PartnerSetupView.swift in Sources */,
+				DC55E0C4250856EC58CACD16 /* PartnerShare.swift in Sources */,
+				1979E51372DEEB724F59F50D /* PartnerSharingService.swift in Sources */,
+				A00CA676F4AF9BC5ADA4A2C2 /* PartnerViewModel.swift in Sources */,
+				278DAEF8B93EB1AE41C3EEBB /* PelvicFloorView.swift in Sources */,
+				43FE9A8410F2995F5AE0B363 /* PersonalizationPageView.swift in Sources */,
+				F97B6A7545EAFAFD5D8CA3B6 /* PhaseBorderModifier.swift in Sources */,
+				3AA75AE7AF0606D01984DE96 /* PhaseInfoCard.swift in Sources */,
+				6F64CFA3EBBA394214C3AF8C /* PhaseThemeEnvironment.swift in Sources */,
+				B5025FF196B9E779375FA1DD /* PoseCardView.swift in Sources */,
+				B84B9891BB57BA81B22EDB27 /* PoseLibraryView.swift in Sources */,
+				FF5F8CB6471E758FB687D656 /* PregnancyChecklistView.swift in Sources */,
+				1D06D90F11012A0BDFF7C9F2 /* PregnancyDashboardView.swift in Sources */,
+				BDA9E7D121D072BD5C4EE9EB /* PregnancyProfile.swift in Sources */,
+				2C8F40D8AFC066D1B742574D /* PregnancyRepository.swift in Sources */,
+				F441DE6FF33BA3A4B4C78B60 /* PregnancySetupSheet.swift in Sources */,
+				9890F95F5E6514BB5CA13438 /* PregnancyViewModel.swift in Sources */,
+				2310092885806310D43EBAEB /* PregnancyWeekContent.swift in Sources */,
+				44BE1D359B0CB43F1D833998 /* PregnancyWeekData.swift in Sources */,
+				7C7F201D0D293C3CE6D014AF /* PrivacyPromisePageView.swift in Sources */,
+				A2D21998DDB03497BFEA841F /* PrivacySettingsView.swift in Sources */,
+				122518C157DA3BDB725C1EF8 /* ProfileRouter.swift in Sources */,
+				F2D5EC7F61D5BE35BCB36547 /* QuickLogSection.swift in Sources */,
+				0356CB846648494AD85EC888 /* ReportGeneratorView.swift in Sources */,
+				330B8D73080B7B49EEC615BB /* RepositoryProtocols.swift in Sources */,
+				7AFF38E95679EB8735DBF7FC /* RootView.swift in Sources */,
+				503752ACEF6D2B3CFFD01359 /* RoutineDetailView.swift in Sources */,
+				8DB9A7B2990D78FEAA67AD62 /* RoutineListView.swift in Sources */,
+				E7EA4C92C8476C05AE79FB8E /* RoutineTimerRing.swift in Sources */,
+				6D29671DF7E04322CAB94CCE /* ScaleButtonStyle.swift in Sources */,
+				1C6C4109958CD3389EF08CD5 /* SelfCareChecklistView.swift in Sources */,
+				BA7E1BCF469B557699775E03 /* SelfCareData.swift in Sources */,
+				12C6C48C9B9E26DC7F8B961F /* SelfCareItem.swift in Sources */,
+				3B70B25F9E0174AA02E3DFBB /* SettingsManager.swift in Sources */,
+				BA74E5EF3DF05E8132EC40E3 /* SettingsView.swift in Sources */,
+				F5B2C3D4E6F7089A23456789 /* SignInWithAppleView.swift in Sources */,
+				F2B22401CF124D26D9B6546F /* SettingsViewModel.swift in Sources */,
+				363793C441953E15AD8FC729 /* SexualActivity.swift in Sources */,
+				ECBDD679299194F101F7BC5C /* ShimmerModifier.swift in Sources */,
+				9AF4E494BF17C3B1D70A9D83 /* SkinCondition.swift in Sources */,
+				F88762CB200280F9F0996F99 /* SleepLogger.swift in Sources */,
+				D5E6F7A8B9C0D1E2F3A4B5C6 /* SplashScreenView.swift in Sources */,
+				4F145EFBE65C7E9A05FDD139 /* StaggeredAppearModifier.swift in Sources */,
+				D51C9277738BEB2A9B1E6555 /* SupplementReminderView.swift in Sources */,
+				6EA76CB824EB93189FF41B13 /* Symptom.swift in Sources */,
+				5B2C02F5DBE6C519B017F8FF /* SymptomHeatmapView.swift in Sources */,
+				85A9F3F10FCBF19A7FDE30F9 /* SymptomLogQuickSheet.swift in Sources */,
+				3272A5989E105CF8B48DF9C6 /* SymptomSelector.swift in Sources */,
+				FFF60866DA644C97A941F3AA /* TTCDashboardView.swift in Sources */,
+				0B53E48BE0ABE2E38E240563 /* TTCJournalView.swift in Sources */,
+				CE05C223553829C629F96E76 /* TTCRepository.swift in Sources */,
+				0AF7DFFE21BE6D2879BE677D /* TTCViewModel.swift in Sources */,
+				EB2968FCF477D0F363F0AB15 /* TodaySummaryCard.swift in Sources */,
+				7502E7B6C1861BCABFCD3FCB /* ViewExtensions.swift in Sources */,
+				99E799F1426332865D2FBFB7 /* WaterTrackerView.swift in Sources */,
+				5BEC11A19F9D819C82569448 /* WeekByWeekView.swift in Sources */,
+				4DE512AABB02FE4D60507474 /* WeeklyChecklist.swift in Sources */,
+				0DB91D47B495EC06767DB2C8 /* WeightEntry.swift in Sources */,
+				B4F8ED899C5AB75194EA2C79 /* WeightTrackingView.swift in Sources */,
+				1D9A760DCBED01E7317F2D22 /* WelcomePageView.swift in Sources */,
+				BDD14B0374552AA89B1AC184 /* WellnessHomeView.swift in Sources */,
+				FFA2FF514FADFCE17927B222 /* WellnessRepository.swift in Sources */,
+				A8A0F9104A239EB4114DC7BD /* WellnessRouter.swift in Sources */,
+				F83FD4CFB45A10569DA7E6E6 /* WellnessViewModel.swift in Sources */,
+				83A36C69FA5C3E9D23602EDD /* YogaHomeView.swift in Sources */,
+				5F6A43E86DC2FDF307E8CA98 /* YogaPose.swift in Sources */,
+				9718A5A87D7247700BA0CE11 /* YogaPoseData.swift in Sources */,
+				6623FE11BA435AB8BC003BEC /* YogaRepository.swift in Sources */,
+				578117D20F365BA30961D5F7 /* YogaRoutine.swift in Sources */,
+				5FB945993F68390D2B70CF5D /* YogaRoutineData.swift in Sources */,
+				4B9B6DD2652F261DC26CEE40 /* YogaSession.swift in Sources */,
+				EEDE1F91D00B1487B492B93A /* YogaViewModel.swift in Sources */,
+				A7B3C2D1E0F987654321ABCD /* PrivacyPolicyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491DAF1EF335E7C1F6D643DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3A52EF94980A56C121FC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F20797258326941AF21F93A /* BloomHerWidgetBundle.swift in Sources */,
+				E1A2D6350B2FC68B325804B8 /* CycleDayWidget.swift in Sources */,
+				A25CEA0D7C0B46BDACBFF482 /* PregnancyWeekWidget.swift in Sources */,
+				B7B7624DA9328C0ABA94B7A0 /* WaterIntakeWidget.swift in Sources */,
+				3B66FDF19A96DFC82CFB10D1 /* WidgetDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986BA4162A7DB0FB6B644049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B6D5F4CAB5858BD85F2D17 /* BloomHer */;
+			targetProxy = 765E6B76AAE04CA138F972FD /* PBXContainerItemProxy */;
+		};
+		B6D6DDFF006320FD81D14458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B6D5F4CAB5858BD85F2D17 /* BloomHer */;
+			targetProxy = 5C73A3965B00864C064F2222 /* PBXContainerItemProxy */;
+		};
+		D22A960C8C0640CB50C926E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B6D5F4CAB5858BD85F2D17 /* BloomHer */;
+			targetProxy = 4416CEAFEBD8362177AF2D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17649B836A6AAA72E58ACE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.widget;
+				PRODUCT_NAME = BloomHerWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE90D4C4CDD5CA133061718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloomHer;
+			};
+			name = Debug;
+		};
+		63FF7C23D635DC70E7FB68B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomHer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloomHer";
+			};
+			name = Debug;
+		};
+		88B363EAE6C7842302F02579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BloomHer/BloomHer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomHer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BloomHer reads menstrual flow, sleep, and basal body temperature data from Health to personalize your wellness insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BloomHer writes menstrual flow, basal body temperature, and workout data to Health for your tracking insights.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app;
+				PRODUCT_NAME = BloomHer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A71DAFC78F52DC59EA619E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4C0F5D2B1FE746C3A085A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloomHer;
+			};
+			name = Release;
+		};
+		CD73674DE06566E6E7F66BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BloomHer/BloomHer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomHer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BloomHer reads menstrual flow, sleep, and basal body temperature data from Health to personalize your wellness insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BloomHer writes menstrual flow, basal body temperature, and workout data to Health for your tracking insights.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app;
+				PRODUCT_NAME = BloomHer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D862AFAF770E889177B0B731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1C8AA6BB127388B2B7DEE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomHer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloomHer";
+			};
+			name = Release;
+		};
+		FC356DD355C297AD49FCD116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				DEVELOPMENT_TEAM = KXA2QSDQ72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloomher.app.widget;
+				PRODUCT_NAME = BloomHerWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A24C036074B212E4ED75EC0 /* Build configuration list for PBXNativeTarget "BloomHerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE90D4C4CDD5CA133061718 /* Debug */,
+				B4C0F5D2B1FE746C3A085A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		633895103EA18F57DA180B02 /* Build configuration list for PBXNativeTarget "BloomHer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD73674DE06566E6E7F66BE9 /* Debug */,
+				88B363EAE6C7842302F02579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		945405899E666E9D1B7B58AA /* Build configuration list for PBXNativeTarget "BloomHerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC356DD355C297AD49FCD116 /* Debug */,
+				17649B836A6AAA72E58ACE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9674B9969121BFB0AF3BB4EA /* Build configuration list for PBXProject "BloomHer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A71DAFC78F52DC59EA619E9 /* Debug */,
+				D862AFAF770E889177B0B731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE7D7CC4A18BD92468D9B5EF /* Build configuration list for PBXNativeTarget "BloomHerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF7C23D635DC70E7FB68B0 /* Debug */,
+				E1C8AA6BB127388B2B7DEE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCC3CE25EFE5FA817FDDA55 /* Project object */;
+}
